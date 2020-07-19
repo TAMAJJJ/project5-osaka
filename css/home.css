@@ -114,18 +114,6 @@ Layout
 /*******************************************************
 Modules
 *******************************************************/ 
-.background a {
-	text-decoration: none;
-	color: silver;
-	border: 1.5px dotted white;
-	padding: 4px;
-    color: #D9CFC0;
-    background-color: #214B71;
-}
-
-.background a:hover {
-    background-color: indigo;
-}
 
 
 .major {
@@ -174,6 +162,15 @@ Modules
 	background-color: #32CD32;
 	border-radius: 10px;
 	color: black;
+}
+
+.meet {
+	text-decoration: none;
+	padding: 20%;
+	border: 2px solid black;
+	background-color: #ffff99;
+	color: black;
+	display: block;
 }
 /*******************************************************
 States
