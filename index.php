@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="column_3">
-                    <a href="studentlist.php" class="meet">Meet the Students!</a>                   
+                    <a href="studentlist.php" class="button">Meet the Students!</a>                   
                 </div>
 
 				<!-- <button class="button" onclick="document.location='studentlist.php'">Meet the students</button> -->

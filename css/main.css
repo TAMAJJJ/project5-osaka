@@ -174,28 +174,7 @@ label {
 Modules
 *******************************************************/ 
 .button {
-	border: none;
-	border-radius: 7px;
-	font-family: Futura, Arial, sans-serif;
-  	color: white;
-  	background-color: #001b3d;
-  	padding: 16px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	transition-duration: 0.4s;
-  	cursor: pointer;
-}
-
-.button:hover {
-	background-color: #009eed;
-}
-
-
-.meet {
-    text-decoration: none;
+	text-decoration: none;
     text-align: center;
     padding: 20%;
     border: 2px solid black;
@@ -204,6 +183,14 @@ Modules
     display: block;
     font-size: 30px;
     border-radius: 15px;
+	font-family: Futura, Arial, sans-serif;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #b8ff99;
 }
 
 .youtube {
