@@ -59,7 +59,9 @@ section {
 }
 
 article {
-	color: #000000;
+	/* color: #000000; */
+    color: silver;
+
 }
 
 h2 {
@@ -118,11 +120,14 @@ label {
     z-index: 2;
    	background-color: #ffffff;
 
-    color: white;
     font-family: Futura, Arial, sans-serif;
 
     border-top: 1px solid gray;
     line-height: 1.5;
+    background-color: #020b0e ;
+    /*background-color: #000217 ;*/
+
+
 }
 @media (max-width: 600px){
     .background{
@@ -178,7 +183,7 @@ Modules
     text-align: center;
     padding: 20%;
     border: 2px solid black;
-    background-color: #ffff99;
+    background-color: #c6e14d;
     color: black;
     display: block;
     font-size: 30px;
