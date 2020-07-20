@@ -2,74 +2,123 @@
 /*******************************************************
 Base
 *******************************************************/ 
-header {
-    /* background from wallpapercave.com- v. 1 background */
-    /*background-image: url(../images/bubbles.jpg); */
+/* remove all margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    /* background from pixelstalk.net */
-    background-image: url(../images/bubble_wallpaper2.png);
+.banner {
+  background-color: #00B5E5;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 3;
+}
+
+.logo {
+  color: #ffffff;
+  font-family: Futura, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-shadow: 5px 5px 12px #000000;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  top: 14px;
+  left: 16px;
+}
+
+header {
+  background-image: url(../images/digital_background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     
     text-align: center;
     color: #D9CFC0;
 
+    margin-top: 6%;
+
     padding-bottom: 20%;
-    padding-top: 10%;
+    padding-top: 15%;
 
     position: fixed;
     width: 100%;
 
-    z-index: 2;
+    z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  color: #ffffff;
+}
+
+article, div {
+    color: silver;
+
 }
 
 h2 {
-    font-style: italic;
-    font-size: 27px;
+  text-shadow: 6px 6px 8px #000000;
+  font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
+  font-size: 250%;
+}
+
+.h2-large {
+  font-size: 300%;
 }
 
 h3 {
-    font-size: 25px;
-    font-style: italic;
-
-}
-h4 {
-    font-size: 20px;
-}
-
-footer {
-    margin-top: 30px;
-
-    grid-column: 1 / 4;
-    text-align: center;
-
-    font-style: italic;
-    color: silver;
     font-size: 15px;
-}
-
-body {
-    margin: 0;
 }
 
 /*******************************************************
 Layout
 *******************************************************/ 
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 8px;
+  right: 16px;
+}
+
+input[type=text] {
+  border: 1px solid #949494;
+  border-radius: 7px;
+  padding: 3px;
+  margin: 3px;
+  font-style: italic;
+}
+
+label {
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+  font-family: Futura, Arial, sans-serif;
+  margin-right: 3px;
+}
+
 .background {
     /* grid specifications */
     width: 100%;
     
     margin: auto;
-    margin-left: 0;
+    margin-top: 45%; /* change how much of background image is visible */
+
+    padding-top: 25px;
 
     position: absolute;
-    /* instruction of z-index from 
-    freecodecamp.org */
-    z-index: 3;
-    background-image: url(../images/jean.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    z-index: 2;
+    font-family: Futura, Arial, sans-serif;
 
+    border-top: 1px solid gray;
+    line-height: 1.5;
+    background-color: #020b0e ;
+    
     color: white;
     font-family: Arial, "Times New Roman", sans-serif;
     margin-top: 33%;
@@ -78,6 +127,7 @@ Layout
     /*margin-left: -8px;*/
     border-top: 1px solid gray;
     line-height: 1.5;
+
 }
 @media (max-width: 600px){
     .background{
@@ -86,12 +136,13 @@ Layout
     }
 }
 
-.container{
+.container article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 7%;
 
     margin: 0 auto;
+
     width: 85%;
     max-width: 1000px;
 }
@@ -100,17 +151,11 @@ Layout
         display: block; 
     }
 }
-
-/* article */
-.background article {
-    grid-column: 1/3;
-
-}
+/* new end */
 
 /* aside */
 .background aside {
     grid-column: 3/4;
-    color: silver;
     font-family: 'Montserrat', sans-serif;
     /* instructions from css-tricks.com */
 }
@@ -137,23 +182,3 @@ Layout
 /*******************************************************
 Modules
 *******************************************************/ 
-.external_link {
-    font-size: 19px;
-    font-weight: bold;
-    color: white;
-}
-
-
-aside a {
-    text-decoration: none;
-    color: silver;
-    border: 1.5px dotted white;
-    padding: 4px;
-    color: #D9CFC0;
-    background-color: #214B71;
-    font-size: 18px;
-}
-
-aside a:hover {
-    background-color: indigo;
-}
