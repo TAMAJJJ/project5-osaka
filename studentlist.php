@@ -7,8 +7,8 @@ include "inc/html-top.php";
 
 <body>
 
-	<div class="banner">
-		<a href="index.php"><h1 class="logo">OSAKA</h1></a>
+	<div class="banner" id="navbar">
+		<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
 
 		<form>
 			<label for="username">Login:</label><br>
@@ -19,7 +19,7 @@ include "inc/html-top.php";
 	</div>
 
 <header>
-<h1>Student Roster</h1>
+<h1 class="h1-large">Student Roster</h1>
 </header>
 <div class="background">
 	<div class="grid-container">
@@ -67,8 +67,8 @@ include "inc/html-top.php";
 		I had no prior programming experiences coming into college, but I wanted to try something new. I wanted to learn practical skills, and possibly go into video game design—a field I've always had an interest in. My first computer science course was very difficult, as everything that was taught was brand new to me. Despite the difficulties, I pushed on!
 		</p>
 		</div>  
-		<div class="grid_item_link">
-		<button class="button" onclick="document.location='jooeon.php'">Jooeon's website</button>
+		<div class="grid-item link">
+		<button class="button" onclick="document.location='jooeon.php'">Joo Eon's website</button>
 		</div>
 </div>
 </div>

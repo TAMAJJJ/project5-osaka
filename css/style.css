@@ -10,10 +10,12 @@
 }
 
 .banner {
-    background-color: #00B5E5;
+    background-color: rgba(0, 181, 229, 1);
+    background-position: center;
     width: 100%;
-    height: 80px;
+    height: 70px;
     position: fixed;
+    transition-duration: 0.4s;
 
     z-index: 3;
 }
@@ -22,12 +24,13 @@
     color: #ffffff;
     font-family: Futura, Arial, sans-serif;
     font-weight: normal;
+    font-size: 35px;
     letter-spacing: 2px;
     text-shadow: 5px 5px 12px #000000;
     text-align: center;
     padding: 5px;
     position: fixed;
-    top: 14px;
+    top: 8px;
     left: 16px;
     transition-duration: 0.4s;
 
@@ -40,10 +43,10 @@ header {
     color: white;
     text-align: center;
     padding-bottom: 20%;
-    padding-top: 10%;
+    padding-top: 17%;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
 }
 
 section {
@@ -52,25 +55,37 @@ section {
 
 article, aside {
     color: silver;
-
 }
 
-h2 {
-    font-style: italic; /* fix */
-    font-size: 27px;
+h1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 100%;
+    letter-spacing: 0.5px;
+    text-shadow: 6px 6px 8px #000000;
 }
+
+.h1-large {
+    font-size: 250%;
+    letter-spacing: 1px;
+}
+
 
 .h2-large {
     font-size: 300%;
 }
 
 h3 {
+    padding-top: 2%;
     font-size: 25px; /* fix */
-    font-style: italic;
-
 }
+
 h4 {
     font-size: 20px; /*fix */
+    padding-top: 2%;
+}
+
+ul{
+    padding-left: 3%;
 }
 
 footer {
@@ -96,7 +111,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    top: 8px;
+    top: 5px;
     right: 16px;
 }
 
@@ -123,12 +138,13 @@ label {
     margin-left: 0;
     padding-top: 25px;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     background-color: #020b0e ;
     background-size: 100% 100%;
-    font-family: Futura, Arial, sans-serif;
+    font-family: 'Zilla Slab', serif;
     border-top: 1px solid gray;
     line-height: 1.5;
+    font-size: 19px;
 }
 @media (max-width: 600px){
     .background{
@@ -161,7 +177,7 @@ label {
 .background aside {
     grid-column: 3/4;
     color: silver;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zilla Slab', serif;
     /* instructions from css-tricks.com */
 }
 @media (max-width: 600px){
@@ -195,18 +211,43 @@ Modules
 
 aside a {
     text-decoration: none;
-    color: silver;
-    border: 1.5px dotted white;
-    padding: 4px;
-    color: #D9CFC0;
-    background-color: #214B71;
+    color: black;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: #0CF2A6;
+    display: block;
     font-size: 18px;
+    border-radius: 15px;
+    font-family: 'Zilla Slab', serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    width: 25%;
 }
 
 aside a:hover {
-    background-color: indigo;
+    
 }
 
 .logo:hover {
-        text-shadow: 5px 5px 12px #b8ff99;
+    text-shadow: 5px 5px 12px #b8ff99;
+}
+
+.back-button {
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: #c6e14d;
+    color: black;
+    display: block;
+    font-size: 25px;
+    border-radius: 15px;
+    font-family: 'Zilla Slab', serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+}
+
+.back-button:hover {
+    background-color: #b8ff99;
 }
