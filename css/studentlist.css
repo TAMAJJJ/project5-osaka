@@ -14,16 +14,8 @@
     height: 200px;
   }
 
-  li{
-    list-style-type: none;
-  }
-
   h2 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 15px;
+    font-size: 34px;
   }
 
   .button {
@@ -40,11 +32,17 @@
       margin: 4px 2px;
       transition-duration: 0.4s;
       cursor: pointer;
+
   }
   
   .button:hover {
     background-color: #009eed;
   }
+
+.grid_item_student {
+    /* padding-left: 10%; */
+    line-height: 1.2;
+}
 
 /* .grid_item_photo {
     margin-right: 10%;
