@@ -107,18 +107,13 @@ label {
 .background {
     /* grid specifications */
     width: 100%;
-    
-    margin: auto;
     margin-top: 45%; /* change how much of background image is visible */
-
     padding-top: 25px;
-
     position: absolute;
     /* instruction of z-index from 
     freecodecamp.org */
     z-index: 2;
     font-family: Futura, Arial, sans-serif;
-
     border-top: 1px solid gray;
     line-height: 1.5;
     background-color: #020b0e ;

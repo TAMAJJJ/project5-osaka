@@ -1,133 +1,132 @@
 /* SMACSS layout - https://smacss.com/book */
 /*******************************************************
-Base
-*******************************************************/ 
-/* remove all margins and paddings */
+
+
+/* original */
+/* style.css - old*/
 * {
     margin: 0;
     padding: 0;
 }
 
 .banner {
-  background-color: #00B5E5;
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  z-index: 3;
+    background-color: #00B5E5;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+
+    z-index: 3;
 }
 
 .logo {
-  color: #ffffff;
-  font-family: Futura, Arial, sans-serif;
-  font-weight: normal;
-  letter-spacing: 2px;
-  text-shadow: 5px 5px 12px #000000;
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  top: 14px;
-  left: 16px;
+    color: #ffffff;
+    font-family: Futura, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 12px #000000;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    top: 14px;
+    left: 16px;
 }
 
 header {
-  background-image: url(../images/digital_background.png);
+    background-image: url(../images/digital_background.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+    color: white;
     text-align: center;
-    color: #D9CFC0;
-
-    margin-top: 6%;
-
     padding-bottom: 20%;
-    padding-top: 15%;
-
+    padding-top: 10%;
     position: fixed;
     width: 100%;
-
-    z-index: 1;
-}
-
-a {
-  text-decoration: none;
+    z-index: 2;
 }
 
 section {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-article, div {
+article, aside {
     color: silver;
 
 }
 
 h2 {
-  text-shadow: 6px 6px 8px #000000;
-  font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
-  font-size: 250%;
+    font-style: italic; /* fix */
+    font-size: 27px;
 }
 
 .h2-large {
-  font-size: 300%;
+    font-size: 300%;
 }
 
 h3 {
+    font-size: 25px; /* fix */
+    font-style: italic;
+
+}
+h4 {
+    font-size: 20px; /*fix */
+}
+
+footer {
+    margin-top: 30px;
+
+    grid-column: 1 / 4;
+    text-align: center;
+
+    font-style: italic;
+    color: silver;
     font-size: 15px;
 }
+
+/* body {
+    margin: 0;
+} */
 
 /*******************************************************
 Layout
 *******************************************************/ 
-
+/* sign-in */
 form {
-  display: flex;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 8px;
-  right: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 8px;
+    right: 16px;
 }
 
 input[type=text] {
-  border: 1px solid #949494;
-  border-radius: 7px;
-  padding: 3px;
-  margin: 3px;
-  font-style: italic;
+    border: 1px solid #949494;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 3px;
+    font-style: italic;
 }
 
 label {
-  color: #ffffff;
-  text-shadow: 2px 2px 5px #000000;
-  font-family: Futura, Arial, sans-serif;
-  margin-right: 3px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
+    font-family: Futura, Arial, sans-serif;
+    margin-right: 3px;
 }
 
+/* main content */
 .background {
     /* grid specifications */
-    width: 100%;
-    
-    margin: auto;
-    margin-top: 45%; /* change how much of background image is visible */
-
+    margin-top: 33%; /* control how much of background image is visible */
+    width: 100%; 
+    margin-left: 0;
     padding-top: 25px;
-
     position: absolute;
-    z-index: 2;
-    font-family: Futura, Arial, sans-serif;
-
-    border-top: 1px solid gray;
-    line-height: 1.5;
+    z-index: 3;
     background-color: #020b0e ;
-    
-    color: white;
-    font-family: Arial, "Times New Roman", sans-serif;
-    margin-top: 33%;
-    
-    margin-right: -8px;
-    /*margin-left: -8px;*/
+    background-size: 100% 100%;
+    font-family: Futura, Arial, sans-serif;
     border-top: 1px solid gray;
     line-height: 1.5;
-
 }
 @media (max-width: 600px){
     .background{
@@ -136,13 +135,11 @@ label {
     }
 }
 
-.container article {
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 7%;
-
+    grid-gap: 40px;
     margin: 0 auto;
-
     width: 85%;
     max-width: 1000px;
 }
@@ -151,11 +148,17 @@ label {
         display: block; 
     }
 }
-/* new end */
+
+/* article */
+.background article {
+    grid-column: 1/3;
+
+}
 
 /* aside */
 .background aside {
     grid-column: 3/4;
+    color: silver;
     font-family: 'Montserrat', sans-serif;
     /* instructions from css-tricks.com */
 }
@@ -170,7 +173,6 @@ label {
     header {
         position: initial;
         padding-top: 30px;
-
         padding-bottom : 30px;
 
     }
@@ -182,3 +184,23 @@ label {
 /*******************************************************
 Modules
 *******************************************************/ 
+.external_link {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+
+aside a {
+    text-decoration: none;
+    color: silver;
+    border: 1.5px dotted white;
+    padding: 4px;
+    color: #D9CFC0;
+    background-color: #214B71;
+    font-size: 18px;
+}
+
+aside a:hover {
+    background-color: indigo;
+}

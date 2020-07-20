@@ -7,7 +7,16 @@ include "inc/html-top.php";
 
 
 <body>
-	<?php include "inc/nav.php"; ?>
+	<div class="banner">
+		<a href="index.php"><h1 class="logo">OSAKA</h1></a>
+
+		<form>
+			<label for="username">Login:</label><br>
+			<input type="text" id="username" name="username" placeholder="Username..."><br>
+			<input type="text" id="password" name="password" placeholder="Password...">
+		</form>
+
+	</div>
 	<header>
 		<h1>Elise Frelinger</h1>
 		<div>Major in Film & Media Studies</div>
