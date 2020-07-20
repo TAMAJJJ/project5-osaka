@@ -29,6 +29,8 @@ Base
 	position: fixed;
 	top: 14px;
 	left: 16px;
+    transition-duration: 0.4s;
+
 }
 
 header {
@@ -164,7 +166,9 @@ label {
         margin-top: 0;
     }
 }
-
+.logo:hover {
+        text-shadow: 5px 5px 12px #b8ff99;
+}
 /*******************************************************
 Modules
 *******************************************************/ 

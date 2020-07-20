@@ -29,6 +29,8 @@
     position: fixed;
     top: 14px;
     left: 16px;
+    transition-duration: 0.4s;
+
 }
 
 header {
@@ -203,4 +205,8 @@ aside a {
 
 aside a:hover {
     background-color: indigo;
+}
+
+.logo:hover {
+        text-shadow: 5px 5px 12px #b8ff99;
 }
