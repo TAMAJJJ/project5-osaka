@@ -7,8 +7,8 @@ include "inc/html-top.php";
 
 <body>
 
-	<div class="banner">
-		<a href="index.php"><h1 class="logo">OSAKA</h1></a>
+	<div class="banner" id="navbar">
+		<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
 
 		<form>
 			<label for="username">Login:</label><br>
@@ -19,7 +19,7 @@ include "inc/html-top.php";
 	</div>
 
 <header>
-<h1>Student Roster</h1>
+<h1 class="h1-large">Student Roster</h1>
 </header>
 <div class="background">
 	<div class="grid-container">
@@ -68,7 +68,7 @@ include "inc/html-top.php";
 		</p>
 		</div>  
 		<div class="grid-item link">
-		<button class="button" onclick="document.location='jooeon.php'">Jooeon's website</button>
+		<button class="button" onclick="document.location='jooeon.php'">Joo Eon's website</button>
 		</div>
 </div>
 </div>

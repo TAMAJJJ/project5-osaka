@@ -7,8 +7,8 @@ include "inc/html-top.php";
 
 
 <body>
-	<div class="banner">
-		<a href="index.php"><h1 class="logo">OSAKA</h1></a>
+	<div class="banner" id="navbar">
+		<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
 
 		<form>
 			<label for="username">Login:</label><br>
@@ -18,9 +18,9 @@ include "inc/html-top.php";
 
 	</div>
 	<header>
-		<h1>Elise Frelinger</h1>
-		<div>Major in Film & Media Studies</div>
-		<div>Minor in Brain & Cognitive Science, History, and Computer Science</div>
+		<h1 class="h1-large">Elise Frelinger</h1>
+		<h1>Major in Film & Media Studies</div>
+		<h1>Minor in Brain & Cognitive Science, History, and Computer Science</div>
 	</header>
 
 	
@@ -90,9 +90,10 @@ include "inc/html-top.php";
 					<p class="external_link">
 						 Check out some of my work here: 
 					</p>
-					<div><a href="https://www.youtube.com/channel/UCLtLOG0_FtSvw3HFZ9b2nog">YouTube</a></div>
+					<a href="https://www.youtube.com/channel/UCLtLOG0_FtSvw3HFZ9b2nog">YouTube</a>
 
-					
+					<a href="studentlist.php" class="back-button">Return to student list</a>
+
 		</aside>
 
 		<footer>
