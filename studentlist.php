@@ -48,7 +48,7 @@ include "inc/html-top.php";
 		</div>
 		<div class="grid_item_description">
 		<p>
-		I knew only a little bit of Java coming out of high school and decided to to improve the situation with an intro programming class. Especially interesting to me was the way complex programs have an exact way of fitting together, piece by piece. After another year, I decided to persue a minor and gained experience with versatile programs I may not have ever used otherwise.
+		I knew only a little bit of Java coming out of high school and decided to to improve the situation with an intro programming class. Especially interesting to me was the way complex programs have an exact way of fitting together, piece by piece. After another year, I decided to persue a minor.
 		</p>
 		</div>  
 		<div class="grid_item_link">

@@ -5,13 +5,13 @@
     width: 100%;
     max-width: 1000px;
     color: silver;
-    grid-gap: 5%;
+    grid-gap: 40px;
   }
 
   img{
     margin: 5px 10px 5px 10px;
-    width: 157px;
-    height: 200px;
+    width: 209px;
+    height: 266px;
     border-radius: 15px;
 
   }
@@ -20,11 +20,11 @@
     font-size: 30px;
     color: white;
     font-style: normal;
-    margin-left: -2px;
+    margin-left: -3px;
   }
 
   h3 {
-    font-size: 34px;
+    font-size: 24px;
     font-weight: normal;
 
   }
