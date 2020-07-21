@@ -3,66 +3,14 @@
 /*******************************************************
 Base
 *******************************************************/ 
-/* remove all margins and paddings */
-* {
-	margin: 0;
-	padding: 0;
-}
-
-.banner {
-	background-color: #00B5E5;
-	width: 100%;
-	height: 70px;
-	position: fixed;
-
-    z-index: 3;
-}
-
-.logo {
-	color: #ffffff;
-	font-family: Futura, Arial, sans-serif;
-	font-weight: normal;
-    font-size: 35px;
-	letter-spacing: 2px;
-	text-shadow: 5px 5px 12px #000000;
-	text-align: center;
-	padding: 5px;
-	position: fixed;
-	top: 8px;
-	left: 16px;
-    transition-duration: 0.4s;
-
-}
-
-header {
-	background-image: url(../images/digital_background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
-    text-align: center;
-    color: #D9CFC0;
-
-    padding-bottom: 20%;
+header {   
     padding-top: 21.5%;
-
-    position: fixed;
-    width: 100%;
-
-    z-index: 1;
 }
 
 a {
 	text-decoration: none;
 }
 
-section {
-	color: #ffffff;
-}
-
-article {
-    color: silver;
-
-}
 
 h2 {
 	text-shadow: 6px 6px 8px #000000;
@@ -70,16 +18,12 @@ h2 {
 	font-size: 250%;
 }
 
-.h2-large {
-	font-size: 300%;
-}
-
 h3 {
     font-size: 15px;
     color: #e3e3e3;
 }
 
-article p {
+.container p {
     line-height: 21px;
 }
 
@@ -87,69 +31,20 @@ article p {
 Layout
 *******************************************************/ 
 
-form {
-	display: flex;
-	flex-wrap: wrap;
-	position: fixed;
- 	top: 5px;
- 	right: 16px;
-}
-
-input[type=text] {
-	border: 1px solid #949494;
-	border-radius: 7px;
-	padding: 3px;
-	margin: 3px;
-	font-style: italic;
-}
-
-label {
-	color: #ffffff;
-	text-shadow: 2px 2px 5px #000000;
-	font-family: Futura, Arial, sans-serif;
-	margin-right: 3px;
-}
 
 .background {
-    /* grid specifications */
-    width: 100%;
     margin-top: 45%; /* change how much of background image is visible */
     padding-bottom: 25px;
-    padding-top: 25px;
-    position: absolute;
-    /* instruction of z-index from 
-    freecodecamp.org */
-    z-index: 2;
     font-family: Futura, Arial, sans-serif;
-    border-top: 1px solid gray;
-    line-height: 1.5;
-    background-color: #020b0e ;
+    color: silver;
 
 }
-@media (max-width: 600px){
-    .background{
-        position: initial;
-        margin-top: 0;
-    }
-}
 
-.container article {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.container {
     grid-gap: 7%;
-
-    margin: 0 auto;
-
-    width: 85%;
-    max-width: 1000px;
-}
-@media (max-width: 600px){
-    .container{
-        display: block; 
-    }
 }
 
-/* article */
+
 .column_1 {
     grid-column: 1 / 2;
 
@@ -159,21 +54,7 @@ label {
     font-size: 13px;
 }
 
-@media (max-width: 600px){
-    header {
-        position: initial;
-        padding-top: 30px;
 
-        padding-bottom : 30px;
-
-    }
-    h1{
-        margin-top: 0;
-    }
-}
-.logo:hover {
-        text-shadow: 5px 5px 12px #b8ff99;
-}
 /*******************************************************
 Modules
 *******************************************************/ 

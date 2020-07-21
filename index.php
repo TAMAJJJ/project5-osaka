@@ -1,13 +1,9 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<title>Osaka | Project 3</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<?php 
+$customCSS = "<link rel='stylesheet' href='css/main.css'> ";
+include "inc/html-top.php";
+?>
 </head>
-
 
 <body>
 
@@ -36,7 +32,6 @@
 	<div class="background">
 		<div class="container">
 
-			<article>
 				<div class="column_1">
 					<h3>An Introduction to Ronald Rettner Hall for Media Arts and Innovation</h3>
                     <iframe width="280" height="157.5" src="https://www.youtube.com/embed/CY7zJbmlI0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
@@ -52,9 +47,6 @@
                     <a href="studentlist.php" class="button">Meet the Students!</a>                   
                 </div>
 
-				<!-- <button class="button" onclick="document.location='studentlist.php'">Meet the students</button> -->
-
-			</article>
 
 		</div> <!-- container -->
 	</div> <!-- background -->

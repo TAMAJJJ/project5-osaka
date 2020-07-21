@@ -76,11 +76,11 @@ h1 {
 
 h3 {
     padding-top: 2%;
-    font-size: 25px; /* fix */
+    font-size: 25px;
 }
 
 h4 {
-    font-size: 20px; /*fix */
+    font-size: 20px; 
     padding-top: 2%;
 }
 
@@ -100,9 +100,6 @@ footer {
     font-size: 15px;
 }
 
-/* body {
-    margin: 0;
-} */
 
 /*******************************************************
 Layout
@@ -178,7 +175,6 @@ label {
 /* aside */
 .background aside {
     grid-column: 3/4;
-    color: silver;
     font-family: 'Zilla Slab', serif;
     /* instructions from css-tricks.com */
 }

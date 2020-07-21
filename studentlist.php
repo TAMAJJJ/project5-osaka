@@ -1,4 +1,7 @@
 <?php 
+$customCSS = "<link rel='stylesheet' href='css/studentlist.css'>";
+	
+
 include "inc/html-top.php";
 ?>
 
