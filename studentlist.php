@@ -24,21 +24,6 @@ include "inc/html-top.php";
 <div class="background">
 	<div class="grid-container">
 		<div class="grid_item_student">
-		<h2>Eunlim Kim</h2>
-		<h3>Major in Computer Science</h3>
-		</div>
-		<div class="grid_item_photo">
-		<img src="images/eunlimkim.jpg" alt="Eunlim's photo">
-		</div>
-		<div class="grid_item_description">
-		<p>Until end of the sophomore year, I was majoring in business only because that was what majority of my
-            friends majored in. However, when I saw my friend did a project for CSC210, the whole final product compelled my 
-            interest.</p>
-		</div>  
-		<div class="grid_item_link">
-		<button class="button" onclick="document.location='eunlim.php'">Eunlim's website</button>
-		</div>
-		<div class="grid_item_student">
 		<h2>Elise Frelinger</h2>
 		<h3>Major in Film & Media Studies</h3>
 		<h3>Minor in Brain & Cognitive Science, History, and Computer Science</h3>
@@ -53,6 +38,21 @@ include "inc/html-top.php";
 		</div>  
 		<div class="grid_item_link">
 		<button class="button" onclick="document.location='elise.php'">Elise's website</button>
+		</div>
+		<div class="grid_item_student">
+		<h2>Eunlim Kim</h2>
+		<h3>Major in Computer Science</h3>
+		</div>
+		<div class="grid_item_photo">
+		<img src="images/eunlimkim.jpg" alt="Eunlim's photo">
+		</div>
+		<div class="grid_item_description">
+		<p>Until end of the sophomore year, I was majoring in business only because that was what majority of my
+            friends majored in. However, when I saw my friend did a project for CSC210, the whole final product compelled my 
+            interest.</p>
+		</div>  
+		<div class="grid_item_link">
+		<button class="button" onclick="document.location='eunlim.php'">Eunlim's website</button>
 		</div>
 		<div class="grid_item_student">
 		<h2>Joo Eon Park</h2>
@@ -70,6 +70,9 @@ include "inc/html-top.php";
 		<div class="grid-item link">
 		<button class="button" onclick="document.location='jooeon.php'">Joo Eon's website</button>
 		</div>
+		<footer class="list-footer">
+		<p>CSC 174: Advanced Front-end Web - Project 1</p>
+		</footer>
 </div>
 </div>
 

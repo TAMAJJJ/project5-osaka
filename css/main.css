@@ -76,6 +76,11 @@ h2 {
 
 h3 {
     font-size: 15px;
+    color: #e3e3e3;
+}
+
+article p {
+    line-height: 21px;
 }
 
 /*******************************************************
@@ -109,6 +114,7 @@ label {
     /* grid specifications */
     width: 100%;
     margin-top: 45%; /* change how much of background image is visible */
+    padding-bottom: 25px;
     padding-top: 25px;
     position: absolute;
     /* instruction of z-index from 
@@ -174,7 +180,8 @@ Modules
 .button {
 	text-decoration: none;
     text-align: center;
-    padding: 20%;
+    padding: 18%;
+    width: 50%;
     border: 2px solid black;
     background-color: #c6e14d;
     color: black;
@@ -182,7 +189,7 @@ Modules
     font-size: 30px;
     border-radius: 15px;
 	font-family: Futura, Arial, sans-serif;
-  	margin: 4px 2px;
+  	margin: 13px 2px;
   	transition-duration: 0.4s;
   	cursor: pointer;
 }

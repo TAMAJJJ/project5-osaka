@@ -13,6 +13,7 @@
     width: 209px;
     height: 266px;
     border-radius: 15px;
+    border: 2px solid #ffffff;
 
   }
 
@@ -28,6 +29,19 @@
     font-weight: normal;
 
   }
+
+  .list-footer {
+    margin-top: 30px;
+    margin-right: 8%;
+    margin-bottom: 5px;
+
+    grid-column: 2 / 4;
+    text-align: center;
+
+    font-style: italic;
+    color: silver;
+    font-size: 15px;
+}
 
   .button {
     border: 2px solid #ffffff;

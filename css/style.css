@@ -61,7 +61,7 @@ h1 {
     font-family: 'Zilla Slab', serif;
     font-size: 100%;
     letter-spacing: 0.5px;
-    text-shadow: 6px 6px 8px #000000;
+    text-shadow: 5px 5px 5px #000000;
 }
 
 .h1-large {
@@ -90,6 +90,7 @@ ul{
 
 footer {
     margin-top: 30px;
+    margin-bottom: 5px;
 
     grid-column: 1 / 4;
     text-align: center;
