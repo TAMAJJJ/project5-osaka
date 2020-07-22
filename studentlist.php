@@ -5,22 +5,6 @@ $customCSS = "<link rel='stylesheet' href='css/studentlist.css'>";
 include "inc/html-top.php";
 ?>
 
-</head>
-
-
-<body>
-
-	<div class="banner" id="navbar">
-		<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-
-		<form>
-			<label for="username">Login:</label><br>
-			<input type="text" id="username" name="username" placeholder="Username..."><br>
-			<input type="text" id="password" name="password" placeholder="Password...">
-		</form>
-
-	</div>
-
 <header>
 <h1 class="h1-large">Student Roster</h1>
 </header>
@@ -74,8 +58,9 @@ include "inc/html-top.php";
 		<button class="button" onclick="document.location='jooeon.php'">Joo Eon's website</button>
 		</div>
 		<footer class="list-footer">
-		<p>CSC 174: Advanced Front-end Web - Project 1</p>
+		<p>CSC 174: Advanced Front-end Web - Project 3</p>
 		</footer>
+
 </div>
 </div>
 

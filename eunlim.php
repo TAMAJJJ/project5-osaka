@@ -1,21 +1,6 @@
 <?php 
 include "inc/html-top.php";
 ?>
-
-</head>
-
-
-<body>
-    <div class="banner" id="navbar">
-        <a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-
-        <form>
-            <label for="username">Login:</label><br>
-            <input type="text" id="username" name="username" placeholder="Username..."><br>
-            <input type="text" id="password" name="password" placeholder="Password...">
-        </form>
-
-    </div>
 	<header>
 		<h1 class="h1-large">Eunlim Kim</h1>
 		<h1>Major in Computer Science</h1>
@@ -105,7 +90,7 @@ include "inc/html-top.php";
 		</aside>
 
 		<footer>
-			<p>CSC 174: Advanced Front-end Web - Project 2</p>
+			<p>CSC 174: Advanced Front-end Web - Project 3</p>
 		</footer>
 		</div> <!-- center container -->
 	</div><!--  background container -->

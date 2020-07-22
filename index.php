@@ -3,20 +3,7 @@
 $customCSS = "<link rel='stylesheet' href='css/main.css'> ";
 include "inc/html-top.php";
 ?>
-</head>
 
-<body>
-
-	<div class="banner">
-		<a href="index.php"><h1 class="logo">OSAKA</h1></a>
-
-		<form>
-			<label for="username">Login:</label><br>
-			<input type="text" id="username" name="username" placeholder="Username..."><br>
-			<input type="text" id="password" name="password" placeholder="Password...">
-		</form>
-
-	</div>
 
 	<header>
 
@@ -46,7 +33,9 @@ include "inc/html-top.php";
                 <div class="column_3">
                     <a href="studentlist.php" class="button">Meet the Students!</a>                   
                 </div>
-
+		<footer>
+			<p>CSC 174: Advanced Front-end Web - Project 3</p>
+		</footer>
 
 		</div> <!-- container -->
 	</div> <!-- background -->
