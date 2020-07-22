@@ -78,7 +78,7 @@ include "inc/html-top.php";
             <p>
             The most interesting subject I learned in highschool is chemistry. The fact that everything is composed of atoms was mind blowing. 
             Also, if you have enough knowledge about chemistry, it provides an excellent basis for understanding the physical universe we live in.
-            In my class, we didn't do any project but labs which made me completey lose track of time. 
+            In my class, we didn't do any project but labs which made me completely lose track of time. 
             </p>
             <p class="external_link">
 						 Check out some of my work here: 
