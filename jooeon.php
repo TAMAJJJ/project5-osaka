@@ -31,7 +31,7 @@ include "inc/html-top.php";
 					<li>Java</li>
 					<li>C</li>
 				</ul>
-			<h3>Digital Media Studies</h3>
+			<h3 class="extra_space">Digital Media Studies</h3>
 					<p>
 						Digital Media Studies cover such a broad range of topics that interested me, including vidoe game development, graphic design, photography, visual art, and music. It was the perfect minor to explore a variety of media and also implement some of my technical skills in programming.
 					</p>
