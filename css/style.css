@@ -58,7 +58,7 @@ article, aside {
 }
 
 h1 {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Futura', Arial, sans-serif;
     font-size: 100%;
     letter-spacing: 0.5px;
     line-height: 25px;
@@ -68,7 +68,7 @@ h1 {
 .h1-large {
     font-size: 250%;
     letter-spacing: 1px;
-    font-family: 'Futura', Arial, sans-serif;
+    font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
     line-height: 40px;
 
 
