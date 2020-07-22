@@ -19,10 +19,10 @@ include "inc/html-top.php";
 					</p>
 			<h4>Classes in Computer Science:</h4>
 				<ul>
-					<li>CSC 161: Intro to Programming</li>
-					<li>CSC 131: Recreational Graphics</li>
-					<li>CSC 170: Intro to Web Development</li>
-					<li>CSC 299W: Social Implications of Computing</li>
+					<li>CSC 131: RECREATIONAL GRAPHICS</li>
+					<li>CSC 161: INTRO TO PROGRAMMING</li>
+					<li>CSC 170: INTRO TO WEB DEVELOPMENT</li>
+					<li>CSC 299W: SOCIAL IMPLICATIONS OF COMPUTING</li>
 				</ul>
 
 			<h4>Programming Languages:</h4>

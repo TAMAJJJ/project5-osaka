@@ -18,12 +18,12 @@ include "inc/html-top.php";
 					</p>
 			<h4>Classes in Computer Science:</h4>
 				<ul>
-					<li>CSC 170 - Introduction to Web Development</li>
-					<li>CSC 171 - Introduction to Computer Science</li>
-					<li>CSC 172 - Data Structures & Algorithms</li>
-					<li>CSC 173 - Computation & Formal Systems</li>
-					<li>CSC 186 - Video Game Development</li>
-					<li>CSC 273W: Writing For Computer Science</li>
+					<li>CSC 170: INTRO TO WEB DEVELOPMENT</li>
+					<li>CSC 171: INTRO TO COMPUTER SCIENCE</li>
+					<li>CSC 172: DATA STRUCTURES & ALGORITHMS</li>
+					<li>CSC 173: COMPUTATION & FORMAL SYSTEMS</li>
+					<li>CSC 186: VIDEO GAME DEVELOPMENT</li>
+					<li>CSC 273W: WRITING FOR COMPUTER SCIENCE</li>
 				</ul>
 
 			<h4>Programming Languages:</h4>

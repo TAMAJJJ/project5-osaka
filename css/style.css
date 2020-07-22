@@ -22,7 +22,7 @@
 
 .logo {
     color: #ffffff;
-    font-family: Futura, Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     font-weight: normal;
     font-size: 35px;
     letter-spacing: 2px;
@@ -58,7 +58,7 @@ article, aside {
 }
 
 h1 {
-    font-family: 'Futura', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-size: 100%;
     letter-spacing: 0.5px;
     line-height: 25px;
@@ -68,14 +68,14 @@ h1 {
 .h1-large {
     font-size: 250%;
     letter-spacing: 1px;
-    font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     line-height: 40px;
 
 
 }
 
 h2 {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     color: white;
 
 }
@@ -93,7 +93,8 @@ h2 {
 h3 {
     padding-bottom: 1%;
     padding-top: 2%;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 h4 {
@@ -143,7 +144,7 @@ input[type=text] {
 label {
     color: #ffffff;
     text-shadow: 2px 2px 5px #000000;
-    font-family: Futura, Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
     margin-right: 3px;
 }
 
@@ -173,8 +174,10 @@ label {
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* Article and aside should produce approximately golden ratio */
+    grid-template-columns: 21.6% 21.6% 28.8%;
+    grid-gap: 130px;
     margin: 0 auto;
     width: 85%;
     max-width: 1000px;
@@ -188,6 +191,7 @@ label {
 /* article */
 .background article {
     grid-column: 1/3;
+    max-width: 100%;
 
 }
 
@@ -223,7 +227,7 @@ Modules
     font-size: 19px;
     font-weight: bold;
     color: white;
-    font-family: 'Futura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 30px;
 
 }
@@ -238,7 +242,7 @@ aside a {
     display: block;
     font-size: 18px;
     border-radius: 15px;
-    font-family: 'Futura', sans-serif;
+    font-family: 'Roboto', sans-serif;
     transition-duration: 0.4s;
     cursor: pointer;
     text-align: center;
@@ -246,7 +250,7 @@ aside a {
 }
 
 .real_link {
-    /* arrow from icons8.com */
+    /* arrow from icons8.com. Link to outside work. */
     background-image: url(../images/external_arrow.png);
     background-origin: padding-box;
     background-repeat: no-repeat;
@@ -269,7 +273,7 @@ aside a:hover {
     display: block;
     font-size: 25px;
     border-radius: 15px;
-    font-family: 'Futura', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
