@@ -45,7 +45,7 @@ include "inc/html-top.php";
                 <li>SQLlite3</li>
             </ul>
 
-			<h3>Digital Media Studies</h3>
+			<h3 class="extra_space">Digital Media Studies</h3>
 			<p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -66,7 +66,7 @@ include "inc/html-top.php";
                 <li>Photography</li>
             </ul>
 
-			<h3>Clubs and Organizations</h3>
+			<h3 class="extra_space">Clubs and Organizations</h3>
 			<p>
                 I am a member of KSA in university of Rochester for three years. My main role is to assist organizing events. I also encourage non-Korean students to learn about Korean culture and to involve in Koren culture related events. 
             </p>

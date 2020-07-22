@@ -31,7 +31,7 @@ include "inc/html-top.php";
 					<li>Java</li>
 					<li>C</li>
 				</ul>
-			<h3>Digital Media Studies</h3>
+			<h3 class="extra_space">Digital Media Studies</h3>
 					<p>
 						Digital Media Studies cover such a broad range of topics that interested me, including vidoe game development, graphic design, photography, visual art, and music. It was the perfect minor to explore a variety of media and also implement some of my technical skills in programming.
 					</p>
@@ -52,7 +52,7 @@ include "inc/html-top.php";
 					<li>Gamemaker Studio 2</li>
 				</ul>
 
-			<h3>Clubs and Organization</h3>
+			<h3 class="extra_space">Clubs and Organization</h3>
 				<p>I've been a part of the school's Rock Repertory Ensemble since my first semester of college. I am one of the guitarists for the band. Since coming to college, I've been able to develop my interest in music and playing the guitar through the band, and also through taking lessons at the Eastman School of Music.</p>
 
 		</article>
