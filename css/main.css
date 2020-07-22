@@ -4,7 +4,6 @@
 Base
 *******************************************************/ 
 header {   
-    /* here */
     padding-top: 18%;
 }
 
@@ -17,8 +16,7 @@ h2 {
 	text-shadow: 6px 6px 8px #000000;
 	font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
 	font-size: 250%;
-    /* here */
-    padding-right: 33%;
+    padding-left: 18%
 
 
 }
