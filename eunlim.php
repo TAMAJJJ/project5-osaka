@@ -83,7 +83,7 @@ include "inc/html-top.php";
             <p class="external_link">
 						 Check out some of my work here: 
 					</p>
-			<a href="https://www.youtube.com/watch?v=8vyboVwyzfU">YouTube</a>
+			<a href="https://www.youtube.com/watch?v=8vyboVwyzfU" class="real_link">YouTube</a>
 
             <a href="studentlist.php" class="back-button">Return to student list</a>
 

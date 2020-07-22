@@ -224,7 +224,7 @@ Modules
 aside a {
     text-decoration: none;
     color: black;
-    padding: 5px;
+    padding: 5px 25px 5px 15px;
     border: 2px solid black;
     background-color: #0CF2A6;
     display: block;
@@ -235,6 +235,14 @@ aside a {
     cursor: pointer;
     text-align: center;
     width: 25%;
+}
+
+.real_link {
+    /* arrow from icons8.com */
+    background-image: url(../images/external_arrow.png);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position: 90% 40%;
 }
 
 aside a:hover {
@@ -258,6 +266,9 @@ aside a:hover {
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
+    /* arrow from https://img.pngio.com */
+    background-image: url(../images/back_arrow.png);
+    background-repeat: no-repeat;
 }
 
 .back-button:hover {
