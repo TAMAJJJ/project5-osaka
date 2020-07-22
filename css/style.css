@@ -58,20 +58,31 @@ article, aside {
 }
 
 h1 {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 100%;
     letter-spacing: 0.5px;
+    line-height: 25px;
     text-shadow: 5px 5px 5px #000000;
 }
 
 .h1-large {
     font-size: 250%;
     letter-spacing: 1px;
+    font-family: 'Futura', Arial, sans-serif;
+    line-height: 40px;
+
+
 }
 
+h2 {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: white;
+
+}
 
 .h2-large {
     font-size: 300%;
+
 }
 
 h3 {
@@ -82,6 +93,7 @@ h3 {
 h4 {
     font-size: 20px; 
     padding-top: 2%;
+
 }
 
 ul{
@@ -204,6 +216,8 @@ Modules
     font-size: 19px;
     font-weight: bold;
     color: white;
+    font-family: 'Futura', sans-serif;
+
 }
 
 
@@ -216,7 +230,7 @@ aside a {
     display: block;
     font-size: 18px;
     border-radius: 15px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Futura', sans-serif;
     transition-duration: 0.4s;
     cursor: pointer;
     text-align: center;
@@ -239,7 +253,7 @@ aside a:hover {
     display: block;
     font-size: 25px;
     border-radius: 15px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Futura', sans-serif;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
