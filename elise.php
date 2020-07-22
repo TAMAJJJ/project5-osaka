@@ -75,7 +75,7 @@ include "inc/html-top.php";
 					<p class="external_link">
 						 Check out some of my work here: 
 					</p>
-					<a href="https://www.youtube.com/channel/UCLtLOG0_FtSvw3HFZ9b2nog">YouTube</a>
+					<a href="https://www.youtube.com/channel/UCLtLOG0_FtSvw3HFZ9b2nog" class="real_link">YouTube</a>
 
 					<a href="studentlist.php" class="back-button">Return to student list</a>
 

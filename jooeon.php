@@ -65,7 +65,7 @@ include "inc/html-top.php";
 					<p class="external_link">
 						 Check out some of my work here: 
 					</p>
-					<a href="https://docs.google.com/document/d/1O55VcsFTe65_TEeIvTTuo32sipHkPPnnbE_GPKZnPfY/edit?usp=sharing">Docs</a>
+					<a href="https://docs.google.com/document/d/1O55VcsFTe65_TEeIvTTuo32sipHkPPnnbE_GPKZnPfY/edit?usp=sharing" class="real_link">Docs</a>
 
 					<a href="studentlist.php" class="back-button">Return to student list</a>
 					
