@@ -20,7 +20,7 @@ include "inc/html-top.php";
 		<div class="container">
 
 				<div class="column_1">
-					<h3>An Introduction to Ronald Rettner Hall for Media Arts and Innovation</h3>
+					<h3>An Introduction to Rettner Hall</h3>
                     <iframe width="280" height="157.5" src="https://www.youtube.com/embed/CY7zJbmlI0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
                 </div>
 

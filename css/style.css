@@ -91,6 +91,7 @@ h2 {
 }
 
 h3 {
+    padding-bottom: 1%;
     padding-top: 2%;
     font-size: 25px;
 }
@@ -98,6 +99,7 @@ h3 {
 h4 {
     font-size: 20px; 
     padding-top: 2%;
+    padding-bottom: .8%;
 
 }
 
