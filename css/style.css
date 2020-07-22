@@ -63,6 +63,7 @@ h1 {
     letter-spacing: 0.5px;
     line-height: 25px;
     text-shadow: 5px 5px 5px #000000;
+    vertical-align: middle;
 }
 
 .h1-large {
