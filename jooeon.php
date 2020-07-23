@@ -37,11 +37,11 @@ include "inc/html-top.php";
 					</p>
 			<h4>Classes in Digital Media:</h4>
 				<ul>
-					<li>DMS 101 - Introduction to Digital Media Studies</li>
-					<li>DMS 103 - Essential Digital Media Toolkit</li>
-					<li>DMS 104 - Design in the Digital Age</li>
-					<li>DMS 110 - Video Game History</li>
-					<li>DMS 120 - Video Game Design</li>
+					<li>DMS 101: INTRO TO DIGITAL MEDIA STUDIES</li>
+					<li>DMS 103: ESSENTIAL DIGITAL MEDIA TOOLKIT</li>
+					<li>DMS 104: DESIGN IN THE DIGITAL AGE</li>
+					<li>DMS 110: VIDEO GAME HISTORY</li>
+					<li>DMS 120: VIDEO GAME DESIGN</li>
 				</ul>
 
 			<h4>Experience in:</h4>

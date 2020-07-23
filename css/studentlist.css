@@ -1,20 +1,13 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1000px;
-    color: silver;
-    grid-gap: 40px;
-  }
-
+/* SMACSS layout - https://smacss.com/book */
+/*******************************************************
+Base
+*******************************************************/ 
   img{
     margin: 5px 10px 5px 10px;
     width: 209px;
     height: 266px;
     border-radius: 15px;
     border: 2px solid #ffffff;
-
   }
 
   h2 {
@@ -30,7 +23,20 @@
 
   }
 
-  .list-footer {
+/*******************************************************
+Layout
+*******************************************************/ 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    color: silver;
+    grid-gap: 40px;
+}
+
+.list-footer {
     margin-top: 30px;
     margin-right: 8%;
     margin-bottom: 5px;
@@ -43,7 +49,10 @@
     font-size: 15px;
 }
 
-  .button {
+/*******************************************************
+Modules
+*******************************************************/ 
+.button {
     border: 2px solid #ffffff;
     border-radius: 30px;
     font-family: Futura, Arial, sans-serif;
@@ -58,13 +67,12 @@
     transition-duration: 0.4s;
     cursor: pointer;
 
-  }
+}
   
-  .button:hover {
+.button:hover {
     background-color: #009eed;
-  }
+}
 
 .grid_item_student {
-    /* padding-left: 10%; */
     line-height: 1.2;
 }

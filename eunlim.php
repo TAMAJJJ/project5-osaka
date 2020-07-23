@@ -55,7 +55,7 @@ include "inc/html-top.php";
 
             <h4>Classes in Digital Media:</h4>
             <ul>
-                <li>DMS 101: Intro to Digital Media Studies</li>
+                <li>DMS 101: INTRO TO DIGITAL MEDIA STUDIES</li>
             </ul>
 
             <h4>Experience in:</h4>

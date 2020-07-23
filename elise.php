@@ -38,17 +38,17 @@ include "inc/html-top.php";
 					</p>
 			<h4>Classes in Digital Media:</h4>
 				<ul>
-					<li>FMS 132: Intro to the Art of Film</li>
-					<li>FMS 210: Animation and the Arts</li>
-					<li>FMS 161: Intro to Video Art</li>
-					<li>FMS 245: '70s History: American Movies in the Silver Age</li>
-					<li>FMS 140: Essential Digital Media Toolkit</li>
-					<li>FMS 205: New Media and Emerging Practice 1</li>
-					<li>FMS 232: The Horror Film</li>
-					<li>FMS 257: Advanced Video Art: Landscape</li>
-					<li>FMS 267: Topics in Italian Culture</li>
-					<li>FMS 260: Screenwriting</li>
-					<li>FMS 270: On Repeat</li>
+					<li>FMS 132: INTRO TO THE ART OF FILM</li>
+					<li>FMS 210: ANIMATION AND THE ARTS</li>
+					<li>FMS 161: INTRO TO VIDEO ART</li>
+					<li>FMS 245: '70s HISTORY: AMERICAN MOVIES IN THE SILVER AGE</li>
+					<li>FMS 140: ESSENTIAL DIGITAL MEDIA TOOLKIT</li>
+					<li>FMS 205: NEW MEDIA AND EMERGING PRACTICE 1</li>
+					<li>FMS 232: THE HORROR FILM</li>
+					<li>FMS 257: ADVANCED VIDEO ART: LANDSCAPE</li>
+					<li>FMS 267: TOPICS IN ITALIAN CULTURE</li>
+					<li>FMS 260: SCREENWRITING</li>
+					<li>FMS 270: ON REPEAT</li>
 				</ul>
 
 			<h4>Experience in:</h4>

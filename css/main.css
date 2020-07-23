@@ -1,4 +1,5 @@
-/* home page */
+/* HOME PAGE */
+
 /* SMACSS layout - https://smacss.com/book */
 /*******************************************************
 Base
@@ -7,19 +8,10 @@ header {
     padding-top: 21.5%;
 }
 
-a {
-	text-decoration: none;
-}
-
-.h1_index {
-    font-size: 300%;
-
-}
- 
 h1 {
-	text-shadow: 6px 6px 8px #000000;
-	font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
-	font-size: 250%;
+    text-shadow: 6px 6px 8px #000000;
+    font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
+    font-size: 250%;
     line-height: normal;
     letter-spacing: normal;
 }
@@ -31,15 +23,19 @@ h2 {
 
 }
 
-.container p {
-    line-height: 21px;
+
+a {
+	text-decoration: none;
+}
+
+
+footer {
+    font-family: 'Zilla Slab', serif;
 }
 
 /*******************************************************
 Layout
 *******************************************************/ 
-
-
 .background {
     margin-top: 45%; /* change how much of background image is visible */
     padding-bottom: 25px;
@@ -63,19 +59,32 @@ Layout
     font-size: 13px;
 }
 
+/*******************************************************
+Modules
+*******************************************************/ 
+/* larger font */
+.h1_index {
+    font-size: 300%;
+
+}
+
+.container p {
+    line-height: 21px;
+}
+
 .column_3 a {
     font-size: 30px;
 }
 
-@media (max-width: 845px) {
+@media (max-width: 900px) {
     .column_3 a {
+        /* instructions from w3schools.com */
         font-size: 3vw;
 
     }
 }
-/*******************************************************
-Modules
-*******************************************************/ 
+
+/* meet the students */
 .button {
 	text-decoration: none;
     text-align: center;
@@ -101,5 +110,4 @@ Modules
     border: 2px solid black;
     border-radius: 15px;
     margin-top: 5px;
-
 }
