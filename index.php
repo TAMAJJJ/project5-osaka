@@ -21,7 +21,7 @@ include "inc/html-top.php";
 
 				<div class="column_1">
 					<h2>An Introduction to Rettner Hall</h2>
-                    <iframe width="280" height="157.5" src="https://www.youtube.com/embed/CY7zJbmlI0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+                    <iframe width="280" height="157" src="https://www.youtube.com/embed/CY7zJbmlI0I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
                 </div>
 
                 <div class="column_2">
