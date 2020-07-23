@@ -10,7 +10,7 @@ include "inc/html-top.php";
 			<section>
 				
 				<h1>CSC 174 Students</h1>
-				<section class="h1_index">In Digital Media</section>
+				<section class="heading_index">In Digital Media</section>
 
 			</section>
 
