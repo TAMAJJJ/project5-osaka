@@ -47,10 +47,10 @@ include "inc/html-top.php";
 
 			<h3 class="extra_space">Digital Media Studies</h3>
 			<p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+            Taking photo and videos of beautiful scenery was always one of
+            my best hobby which eventuall made me want to learn more about
+            what types of techniques are out in real industry and what has
+            improved as time goes. Fortunately enough, University of Rochester offers various media study courses and I was more than happy to take courses.
             </p>
 
             <h4>Classes in Digital Media:</h4>
