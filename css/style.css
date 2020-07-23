@@ -81,11 +81,6 @@ h2 {
 
 }
 
-.h2-large {
-    font-size: 300%;
-
-}
-
 .extra_space {
     margin-top: 40px;
 
@@ -166,12 +161,6 @@ label {
     font-size: 19px;
     background-size: cover;
 }
-@media (max-width: 600px){
-    .background{
-        position: initial;
-        margin-top: 0;
-    }
-}
 
 .container{
     display: grid;
@@ -183,11 +172,7 @@ label {
     width: 85%;
     max-width: 1000px;
 }
-@media (max-width: 600px){
-    .container{
-        display: block; 
-    }
-}
+
 
 /* article */
 .background article {
@@ -201,24 +186,6 @@ label {
     grid-column: 3/4;
     font-family: 'Zilla Slab', serif;
     /* instructions from css-tricks.com */
-}
-@media (max-width: 600px){
-    .background aside{
-        transform: none;
-    }
-}
-
-
-@media (max-width: 600px){
-    header {
-        position: initial;
-        padding-top: 30px;
-        padding-bottom : 30px;
-
-    }
-    h1{
-        margin-top: 0;
-    }
 }
 
 /*******************************************************
