@@ -89,7 +89,6 @@ Modules
 	text-decoration: none;
     text-align: center;
     padding: 18%;
-    width: 50%;
     border: 2px solid black;
     background-color: #c6e14d;
     color: black;
@@ -97,7 +96,7 @@ Modules
     font-size: 30px;
     border-radius: 15px;
 	font-family: Futura, Arial, sans-serif;
-  	margin: 13px 2px;
+  	margin: 0px 2px;
   	transition-duration: 0.4s;
   	cursor: pointer;
 }

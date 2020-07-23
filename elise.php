@@ -5,7 +5,6 @@ include "inc/html-top.php";
 	<header>
 		<h1 class="h1-large">Elise Frelinger</h1>
 		<h1>Major in Film & Media Studies</h1>
-		<h1>Minor in Brain & Cognitive Science, History, and Computer Science</h1>
 	</header>
 
 	

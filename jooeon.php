@@ -4,7 +4,6 @@ include "inc/html-top.php";
 	<header>
 		<h1 class="h1-large">Joo Eon Park</h1>
 		<h1>Major in Computer Science</h1>
-		<h1>Minor in Digital Media Studies</h1>
 	</header>
 
 	
