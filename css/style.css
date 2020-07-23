@@ -32,7 +32,6 @@ h1 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 100%;
     letter-spacing: 0.5px;
-    line-height: 25px;
     text-shadow: 5px 5px 5px #000000;
     vertical-align: middle;
 }
@@ -85,6 +84,7 @@ label {
     text-shadow: 2px 2px 5px #000000;
     font-family: Montserrat, Arial, sans-serif;
     margin-right: 3px;
+    margin-top: 5px;
 }
 
 footer {
@@ -97,6 +97,10 @@ footer {
     font-style: italic;
     color: silver;
     font-size: 15px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*******************************************************
@@ -179,7 +183,7 @@ Modules
     letter-spacing: 1px;
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 40px;
-
+    margin-bottom: 4px;
 }
 
 .external_link {
@@ -210,6 +214,8 @@ aside a {
     cursor: pointer;
     text-align: center;
     width: 25%;
+    margin-left: -2px;
+    margin-top: 2px;
 }
 
 .real_link {
@@ -233,10 +239,12 @@ aside a {
     font-size: 25px;
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
-    margin: 4px 2px;
+    margin: 40px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     position: absolute;
+    width: 25%;
+    padding-right: 7px;
     /* arrow from https://img.pngio.com */
     background-image: url(../images/back_arrow.png);
     background-repeat: no-repeat;
