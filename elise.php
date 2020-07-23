@@ -80,11 +80,10 @@ include "inc/html-top.php";
 
 		</aside>
 
+		</div> <!-- center container -->
 		<footer>
 			<p>CSC 174: Advanced Front-end Web - Project 3</p>
 		</footer>
-
-		</div> <!-- center container -->
 	</div><!--  background container -->
 
 <?php include "inc/scripts.php" ?>
