@@ -25,5 +25,5 @@ Created by: Eunlim Kim, Elise Frelinger, and JooEon Park
  + Alignment principle is applied across each student row in the F-Frame (for intuitive grouping to that particular student) and beneath each h2 on the personal pages (to implicitly group those subheadings under the h2).
  + The index's columns are aligned to show a relationship in subject matter.
  + Repetition principle is applied to individual student pages. They are structured in the same way to indicate they share similar properties and content- you know where each section is located.
- + Article and aside on the personal pages apply (an approximation of) the Golden Ratio and rule of thirds. F-Frame applies rule of thirds.
+ + Article and aside on the personal pages apply (an adjusted approximation of) the Golden Ratio and rule of thirds. F-Frame applies rule of thirds for aesthetic value.
 

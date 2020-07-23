@@ -148,7 +148,8 @@ Layout
 
 .container{
     display: grid;
-    /* Article and aside should produce approximately golden ratio */
+    /* Article and aside in approximately-ish golden ratio- adjusted
+    for buttons taking up more space */
     grid-template-columns: 21.6% 21.6% 28.8%;
     grid-gap: 130px;
     margin: 0 auto;
