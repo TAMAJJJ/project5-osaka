@@ -9,8 +9,8 @@ include "inc/html-top.php";
 
 			<section>
 				
-				<h2>CSC 174 Students</h2>
-				<h2 class="h2-large">In Digital Media</h2>
+				<h1>CSC 174 Students</h1>
+				<h1 class="h1_index">In Digital Media</h1>
 
 			</section>
 
@@ -20,12 +20,12 @@ include "inc/html-top.php";
 		<div class="container">
 
 				<div class="column_1">
-					<h3>An Introduction to Rettner Hall</h3>
+					<h2>An Introduction to Rettner Hall</h2>
                     <iframe width="280" height="157.5" src="https://www.youtube.com/embed/CY7zJbmlI0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
                 </div>
 
                 <div class="column_2">
-                    <h3>What is Digital Media Studies?</h3>
+                    <h2>What is Digital Media Studies?</h2>
                     <p>Digital technology is changing how we do everything. More than ever, it is important to be a critical consumer and educated producer of digital media.Sometimes known as new media, digital media consists of computer-based, networked technologies that represent and imagine the world. It is the new standard for literacy in the 21st century.</p>
                     
                 </div>
