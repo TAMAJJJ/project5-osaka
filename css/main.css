@@ -60,7 +60,7 @@ Layout
 Modules
 *******************************************************/ 
 /* larger font */
-.heading_index {
+.h1_index {
     font-size: 300%;
     text-shadow: 6px 6px 8px #000000;
     font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
