@@ -8,7 +8,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.height = "40px";
     document.getElementById("navbar").style.backgroundColor = "rgba(0, 181, 229, 0.5)";
     document.getElementById("logo").style.fontSize = "20px";
-    document.getElementById("logo").style.top = "1px";
+    document.getElementById("logo").style.top = "4px";
   } else {
     document.getElementById("navbar").style.height = "70px";
     document.getElementById("navbar").style.backgroundColor = "rgba(0, 181, 229, 1)";

@@ -1,26 +1,9 @@
 <?php 
 include "inc/html-top.php";
 ?>
-
-</head>
-
-
-
-<body>
-	<div class="banner" id="navbar">
-		<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-
-		<form>
-			<label for="username">Login:</label><br>
-			<input type="text" id="username" name="username" placeholder="Username..."><br>
-			<input type="text" id="password" name="password" placeholder="Password...">
-		</form>
-
-	</div>
 	<header>
 		<h1 class="h1-large">Joo Eon Park</h1>
 		<h1>Major in Computer Science</h1>
-		<h1>Minor in Digital Media Studies</h1>
 	</header>
 
 	
@@ -34,12 +17,12 @@ include "inc/html-top.php";
 					</p>
 			<h4>Classes in Computer Science:</h4>
 				<ul>
-					<li>CSC 170 - Introduction to Web Development</li>
-					<li>CSC 171 - Introduction to Computer Science</li>
-					<li>CSC 172 - Data Structures & Algorithms</li>
-					<li>CSC 173 - Computation & Formal Systems</li>
-					<li>CSC 186 - Video Game Development</li>
-					<li>CSC 273W: Writing For Computer Science</li>
+					<li>CSC 170: INTRO TO WEB DEVELOPMENT</li>
+					<li>CSC 171: INTRO TO COMPUTER SCIENCE</li>
+					<li>CSC 172: DATA STRUCTURES & ALGORITHMS</li>
+					<li>CSC 173: COMPUTATION & FORMAL SYSTEMS</li>
+					<li>CSC 186: VIDEO GAME DEVELOPMENT</li>
+					<li>CSC 273W: WRITING FOR COMPUTER SCIENCE</li>
 				</ul>
 
 			<h4>Programming Languages:</h4>
@@ -47,17 +30,17 @@ include "inc/html-top.php";
 					<li>Java</li>
 					<li>C</li>
 				</ul>
-			<h3>Digital Media Studies</h3>
+			<h3 class="extra_space">Digital Media Studies</h3>
 					<p>
 						Digital Media Studies cover such a broad range of topics that interested me, including vidoe game development, graphic design, photography, visual art, and music. It was the perfect minor to explore a variety of media and also implement some of my technical skills in programming.
 					</p>
 			<h4>Classes in Digital Media:</h4>
 				<ul>
-					<li>DMS 101 - Introduction to Digital Media Studies</li>
-					<li>DMS 103 - Essential Digital Media Toolkit</li>
-					<li>DMS 104 - Design in the Digital Age</li>
-					<li>DMS 110 - Video Game History</li>
-					<li>DMS 120 - Video Game Design</li>
+					<li>DMS 101: INTRO TO DIGITAL MEDIA STUDIES</li>
+					<li>DMS 103: ESSENTIAL DIGITAL MEDIA TOOLKIT</li>
+					<li>DMS 104: DESIGN IN THE DIGITAL AGE</li>
+					<li>DMS 110: VIDEO GAME HISTORY</li>
+					<li>DMS 120: VIDEO GAME DESIGN</li>
 				</ul>
 
 			<h4>Experience in:</h4>
@@ -81,14 +64,14 @@ include "inc/html-top.php";
 					<p class="external_link">
 						 Check out some of my work here: 
 					</p>
-					<a href="https://docs.google.com/document/d/1O55VcsFTe65_TEeIvTTuo32sipHkPPnnbE_GPKZnPfY/edit?usp=sharing">Docs</a>
+					<a href="https://docs.google.com/document/d/1O55VcsFTe65_TEeIvTTuo32sipHkPPnnbE_GPKZnPfY/edit?usp=sharing" class="real_link">Docs</a>
 
 					<a href="studentlist.php" class="back-button">Return to student list</a>
 					
 		</aside>
 
 		<footer>
-			<p>CSC 174: Advanced Front-end Web - Project 1</p>
+			<p>CSC 174: Advanced Front-end Web - Project 3</p>
 		</footer>
 
 		</div> <!-- center container -->

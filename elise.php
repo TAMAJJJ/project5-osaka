@@ -2,25 +2,9 @@
 include "inc/html-top.php";
 ?>
 
-</head>
-
-
-
-<body>
-	<div class="banner" id="navbar">
-		<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-
-		<form>
-			<label for="username">Login:</label><br>
-			<input type="text" id="username" name="username" placeholder="Username..."><br>
-			<input type="text" id="password" name="password" placeholder="Password...">
-		</form>
-
-	</div>
 	<header>
 		<h1 class="h1-large">Elise Frelinger</h1>
-		<h1>Major in Film & Media Studies</div>
-		<h1>Minor in Brain & Cognitive Science, History, and Computer Science</div>
+		<h1>Major in Film & Media Studies</h1>
 	</header>
 
 	
@@ -34,10 +18,10 @@ include "inc/html-top.php";
 					</p>
 			<h4>Classes in Computer Science:</h4>
 				<ul>
-					<li>CSC 161: Intro to Programming</li>
-					<li>CSC 131: Recreational Graphics</li>
-					<li>CSC 170: Intro to Web Development</li>
-					<li>CSC 299W: Social Implications of Computing</li>
+					<li>CSC 131: RECREATIONAL GRAPHICS</li>
+					<li>CSC 161: INTRO TO PROGRAMMING</li>
+					<li>CSC 170: INTRO TO WEB DEVELOPMENT</li>
+					<li>CSC 299W: SOCIAL IMPLICATIONS OF COMPUTING</li>
 				</ul>
 
 			<h4>Programming Languages:</h4>
@@ -47,23 +31,23 @@ include "inc/html-top.php";
 					<li>R</li>
 					<li>HTML</li>
 				</ul>
-			<h3>Digital Media Studies</h3>
+			<h3 class="extra_space">Digital Media Studies</h3>
 					<p>
 						I decided to take a film class when I went to the UofR and quickly signed up for several the following year. After two years, I realized that constructing and deconstructing video was something I loved to do. I decided to major in the production track.
 					</p>
 			<h4>Classes in Digital Media:</h4>
 				<ul>
-					<li>FMS 132: Intro to the Art of Film</li>
-					<li>FMS 210: Animation and the Arts</li>
-					<li>FMS 161: Intro to Video Art</li>
-					<li>FMS 245: '70s History: American Movies in the Silver Age</li>
-					<li>FMS 140: Essential Digital Media Toolkit</li>
-					<li>FMS 205: New Media and Emerging Practice 1</li>
-					<li>FMS 232: The Horror Film</li>
-					<li>FMS 257: Advanced Video Art: Landscape</li>
-					<li>FMS 267: Topics in Italian Culture</li>
-					<li>FMS 260: Screenwriting</li>
-					<li>FMS 270: On Repeat</li>
+					<li>FMS 132: INTRO TO THE ART OF FILM</li>
+					<li>FMS 210: ANIMATION AND THE ARTS</li>
+					<li>FMS 161: INTRO TO VIDEO ART</li>
+					<li>FMS 245: '70s HISTORY: AMERICAN MOVIES IN THE SILVER AGE</li>
+					<li>FMS 140: ESSENTIAL DIGITAL MEDIA TOOLKIT</li>
+					<li>FMS 205: NEW MEDIA AND EMERGING PRACTICE 1</li>
+					<li>FMS 232: THE HORROR FILM</li>
+					<li>FMS 257: ADVANCED VIDEO ART: LANDSCAPE</li>
+					<li>FMS 267: TOPICS IN ITALIAN CULTURE</li>
+					<li>FMS 260: SCREENWRITING</li>
+					<li>FMS 270: ON REPEAT</li>
 				</ul>
 
 			<h4>Experience in:</h4>
@@ -77,7 +61,7 @@ include "inc/html-top.php";
 					<li>Producing Still and Multi-Media Presentations</li>
 				</ul>
 
-			<h3>Clubs and Organization</h3>
+			<h3 class="extra_space">Clubs and Organization</h3>
 				<p>I was a member of the Equestrian Club for two years. Riding horses was something I had wanted to do since I was young, and with fundraisers and weekly group lessons, we were able to take lessons, compete, and help care for horses at a fraction of the regular cost. I learned a great deal about how to care for farm animals and how to coordinate (often nonverbally) with other riders, the instructor, and the horses.</p>
 
 		</article>
@@ -90,14 +74,14 @@ include "inc/html-top.php";
 					<p class="external_link">
 						 Check out some of my work here: 
 					</p>
-					<a href="https://www.youtube.com/channel/UCLtLOG0_FtSvw3HFZ9b2nog">YouTube</a>
+					<a href="https://www.youtube.com/channel/UCLtLOG0_FtSvw3HFZ9b2nog" class="real_link">YouTube</a>
 
 					<a href="studentlist.php" class="back-button">Return to student list</a>
 
 		</aside>
 
 		<footer>
-			<p>CSC 174: Advanced Front-end Web - Project 1</p>
+			<p>CSC 174: Advanced Front-end Web - Project 3</p>
 		</footer>
 
 		</div> <!-- center container -->

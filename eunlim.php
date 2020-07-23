@@ -1,21 +1,6 @@
 <?php 
 include "inc/html-top.php";
 ?>
-
-</head>
-
-
-<body>
-    <div class="banner" id="navbar">
-        <a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-
-        <form>
-            <label for="username">Login:</label><br>
-            <input type="text" id="username" name="username" placeholder="Username..."><br>
-            <input type="text" id="password" name="password" placeholder="Password...">
-        </form>
-
-    </div>
 	<header>
 		<h1 class="h1-large">Eunlim Kim</h1>
 		<h1>Major in Computer Science</h1>
@@ -60,17 +45,17 @@ include "inc/html-top.php";
                 <li>SQLlite3</li>
             </ul>
 
-			<h3>Digital Media Studies</h3>
+			<h3 class="extra_space">Digital Media Studies</h3>
 			<p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+            Taking photo and videos of beautiful scenery was always one of
+            my best hobby which eventuall made me want to learn more about
+            what types of techniques are out in real industry and what has
+            improved as time goes. Fortunately enough, University of Rochester offers various media study courses and I was more than happy to take courses.
             </p>
 
             <h4>Classes in Digital Media:</h4>
             <ul>
-                <li>DMS 101: Intro to Digital Media Studies</li>
+                <li>DMS 101: INTRO TO DIGITAL MEDIA STUDIES</li>
             </ul>
 
             <h4>Experience in:</h4>
@@ -81,7 +66,7 @@ include "inc/html-top.php";
                 <li>Photography</li>
             </ul>
 
-			<h3>Clubs and Organizations</h3>
+			<h3 class="extra_space">Clubs and Organizations</h3>
 			<p>
                 I am a member of KSA in university of Rochester for three years. My main role is to assist organizing events. I also encourage non-Korean students to learn about Korean culture and to involve in Koren culture related events. 
             </p>
@@ -93,19 +78,19 @@ include "inc/html-top.php";
             <p>
             The most interesting subject I learned in highschool is chemistry. The fact that everything is composed of atoms was mind blowing. 
             Also, if you have enough knowledge about chemistry, it provides an excellent basis for understanding the physical universe we live in.
-            In my class, we didn't do any project but labs which made me completey lose track of time. 
+            In my class, we didn't do any project but labs which made me completely lose track of time. 
             </p>
             <p class="external_link">
 						 Check out some of my work here: 
 					</p>
-			<a href="https://www.youtube.com/watch?v=8vyboVwyzfU">YouTube</a>
+			<a href="https://www.youtube.com/watch?v=8vyboVwyzfU" class="real_link">YouTube</a>
 
             <a href="studentlist.php" class="back-button">Return to student list</a>
 
 		</aside>
 
 		<footer>
-			<p>CSC 174: Advanced Front-end Web - Project 2</p>
+			<p>CSC 174: Advanced Front-end Web - Project 3</p>
 		</footer>
 		</div> <!-- center container -->
 	</div><!--  background container -->
