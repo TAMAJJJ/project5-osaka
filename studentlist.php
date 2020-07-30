@@ -7,6 +7,7 @@ include "inc/html-top.php"; ?>
 		$result = mysqli_query($connection, "SELECT * FROM osaka_directory");
 		?>
 	<header>
+		<!-- TODO: Deal with cases without minor etc -->
 		<h1 class="h1-large">Student Roster</h1>
 	</header>
 	<div class="background">
