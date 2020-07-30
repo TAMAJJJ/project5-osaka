@@ -69,15 +69,16 @@ form {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    top: 5px;
+    top: 22px;
     right: 16px;
+    font-size:20px;
 }
 
-input[type=text] {
+input{
     border: 1px solid #949494;
     border-radius: 7px;
     padding: 3px;
-    margin: 3px;
+    margin-left: 5px;
     font-style: italic;
 }
 
