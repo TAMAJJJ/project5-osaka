@@ -135,7 +135,7 @@ Layout
 /* main content */
 .background {
     /* grid specifications */
-    margin-top: 33%; /* control how much of background image is visible */
+    margin-top: 31%; /* control how much of background image is visible */
     width: 100%;
     margin-left: 0;
     padding-top: 25px;
