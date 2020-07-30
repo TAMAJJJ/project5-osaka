@@ -1,6 +1,14 @@
 # **Osaka**
+## Project 4 group
+Members:
+ - IA: Emely Rosa
+ - Visual: Huiyu Yang
+ - Technician: Michael Bashner
 
--------------------
+### Changes to project 3 CSS
+ - added minimum width to content on student list, so that paragraphs are in slightly wider columns, and realtively match photos in length
+
+___
 Created by: Eunlim Kim, Elise Frelinger, and JooEon Park
 
 ## *List of what and where was changed*
