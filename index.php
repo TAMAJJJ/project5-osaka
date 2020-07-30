@@ -1,4 +1,3 @@
-
 <?php
 $customCSS = "<link rel='stylesheet' href='css/main.css'> ";
 include "inc/html-top.php";
@@ -39,5 +38,3 @@ include "inc/html-top.php";
 
 <?php include "inc/scripts.php" ?>
 </body>
-
-</html>
