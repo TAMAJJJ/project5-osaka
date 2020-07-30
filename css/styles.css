@@ -45,7 +45,6 @@ h2 {
 }
 
 
-
 h3 {
     padding-bottom: 1%;
     padding-top: 2%;
@@ -72,6 +71,7 @@ form {
     top: 22px;
     right: 16px;
     font-size:20px;
+    transition-duration: 0.4s;
 }
 
 input{
