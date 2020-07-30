@@ -6,7 +6,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
     document.getElementById("navbar").style.height = "40px";
-    document.getElementById("navbar").style.backgroundColor = "rgba(0, 181, 229, 0.5)";
+    document.getElementById("navbar").style.backgroundColor = "rgba(0, 181, 229, 1)";
     document.getElementById("logo").style.fontSize = "20px";
     document.getElementById("logo").style.top = "4px";
   } else {
