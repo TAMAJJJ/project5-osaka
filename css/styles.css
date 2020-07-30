@@ -13,11 +13,11 @@ header {
     background-size: 100%;
     color: white;
     text-align: center;
-    height: 67%;
-    margin-top: 40px;
+    height: 86%;
     display: grid;
     place-items: center;
     position: fixed;
+    top:0;
     width: 100%;
     z-index: 1;
 }
