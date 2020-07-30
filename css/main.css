@@ -3,13 +3,9 @@
 /* SMACSS layout - https://smacss.com/book */
 /*******************************************************
 Base
-*******************************************************/ 
-header {   
-    padding-top: 21.5%;
-}
-
+*******************************************************/
 h1 {
-    text-shadow: 6px 6px 8px #000000;
+    text-shadow: 5px 5px 5px #000000;
     font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
     font-size: 250%;
     line-height: normal;
@@ -32,9 +28,9 @@ footer {
 
 /*******************************************************
 Layout
-*******************************************************/ 
+*******************************************************/
 .background {
-    margin-top: 45%; /* change how much of background image is visible */
+    margin-top: 36%; /* change how much of background image is visible */
     padding-bottom: 25px;
     font-family: Futura, Arial, sans-serif;
     color: silver;
@@ -58,7 +54,7 @@ Layout
 
 /*******************************************************
 Modules
-*******************************************************/ 
+*******************************************************/
 /* larger font */
 .h1_index {
     font-size: 300%;
