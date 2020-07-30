@@ -1,7 +1,7 @@
 /* SMACSS layout - https://smacss.com/book */
 /*******************************************************
 Base
-*******************************************************/ 
+*******************************************************/
   img{
     margin: 5px 10px 5px 10px;
     width: 209px;
@@ -25,7 +25,7 @@ Base
 
 /*******************************************************
 Layout
-*******************************************************/ 
+*******************************************************/
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -51,7 +51,7 @@ Layout
 
 /*******************************************************
 Modules
-*******************************************************/ 
+*******************************************************/
 .button {
     border: 2px solid #ffffff;
     border-radius: 30px;
@@ -68,11 +68,20 @@ Modules
     cursor: pointer;
 
 }
-  
+
 .button:hover {
     background-color: #009eed;
 }
 
 .grid_item_student {
+    min-width: 20ch;
     line-height: 1.2;
+}
+
+.grid_item_description{
+    min-width: 25ch;
+}
+
+.grid_item_link{
+  min-width: 15ch;
 }
