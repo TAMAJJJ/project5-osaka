@@ -7,6 +7,7 @@ Members:
 
 ### Changes to project 3 CSS
  - added minimum width to content on student list, so that paragraphs are in slightly wider columns, and realtively match photos in length
+ - decreased bottom padding on header so the text is centered vertically
 
 ___
 Created by: Eunlim Kim, Elise Frelinger, and JooEon Park
