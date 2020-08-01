@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title> CSC 174 Students </title>
-	</head>
+<?php include "inc/html-top.php"; ?>
 	<body>
 		<h1> New Student Data Entry Form</h1>
 		<form method="post" action="form.php">
@@ -28,6 +23,8 @@
 				<label for="image"> Picture: </label>
 				<input type="file" name="image" id="image">
 			</div>
+			<div>
+				<input type="submit" value="Create">
 		</form>
 	</body>
 </html>
