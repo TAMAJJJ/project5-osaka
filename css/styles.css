@@ -64,7 +64,7 @@ ul{
 }
 
 /* sign-in */
-form {
+.banner form {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
@@ -74,7 +74,7 @@ form {
     transition-duration: 0.4s;
 }
 
-input{
+.banner input{
     border: 1px solid #949494;
     border-radius: 7px;
     padding: 3px;
@@ -82,7 +82,7 @@ input{
     font-style: italic;
 }
 
-label {
+.banner label {
     color: #ffffff;
     text-shadow: 2px 2px 5px #000000;
     font-family: Montserrat, Arial, sans-serif;

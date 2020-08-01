@@ -1,0 +1,67 @@
+/* SMACSS layout - https://smacss.com/book */
+/*******************************************************
+Base
+*******************************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/digital_background.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+
+/*******************************************************
+Layout
+*******************************************************/
+.data-entry{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px
+}
+
+.intro{
+  grid-column: 1/3;
+}
+
+.required{
+  text-align: right;
+}
+/*******************************************************
+Modules
+*******************************************************/
+.title{
+  margin-top: 80px;
+  color: white;
+}
+
+.box{
+  background-color: #020b0e;
+  border: 1px solid gray;
+  padding-top: 10px;
+}
+
+.label, .file-label{
+  color: white;
+  font-weight: bold;
+}
+
+.file-cta .file-label{
+  color: black;
+}
+
+.create{
+  background-color: rgba(0, 181, 229, 1);
+  color: white;
+}
+
+.file-icon{
+  background-image: url(../images/upload.png);
+  background-repeat: no-repeat;
+}
