@@ -24,7 +24,8 @@
 				<input type="file" name="image" id="image">
 			</div>
 			<div>
-				<input type="submit" value="Create">
+				<button class="btn" type="submit" name="Create" > Create </button>
+			</div>
 		</form>
 	</body>
 </html>
