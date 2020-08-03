@@ -84,4 +84,11 @@ Modules
 
 .grid_item_link{
   min-width: 15ch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit{
+  background-color: #12508c;
 }
