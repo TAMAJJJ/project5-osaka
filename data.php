@@ -12,15 +12,15 @@ include "inc/html-top.php"; ?>
 					<form action="" method="post" class="data-entry" enctype="multipart/form-data">
 					<input type="hidden" name="id" value="<?php echo $id; ?>">
 					<div class="field">
-						<label class="label" for="firstName">First Name: *</label>
+						<label class="label" for="firstname">First Name: *</label>
 						<div class="control">
-							<input class="input" type = "text" name="firstName" id="firstName" value="<?php echo $firstname; ?>" required>
+							<input class="input" type="text" name="firstname" id="firstname" value="<?php echo $firstname; ?>" required>
 						</div>
 					</div>
 					<div class="field">
-						<label class="label" for="lastName">Last Name: *</label>
+						<label class="label" for="lastname">Last Name: *</label>
 						<div class="control">
-							<input class="input" type="text" name="lastName" id="lastName" value="<?php echo $lastname; ?>" required>
+							<input class="input" type="text" name="lastname" id="lastname" value="<?php echo $lastname; ?>" required>
 						</div>
 					</div>
 
@@ -35,54 +35,50 @@ include "inc/html-top.php"; ?>
 						</div>
 					</div>
 					<div class="field intro">
-						<label class="label" for="intro"> Introduction: *</label>
+						<label class="label" for="intro">Introduction: *</label>
 						<div class="control">
 							<textarea class="textarea is-small" rows="5" name="intro" id="intro" required><?php echo $about; ?></textarea>
 						</div>
 					</div>
 
-					<div class="file">
+					<div class="field">
+						<label class="label" for="website">Website: *</label>
+						<div class="control">
+							<input class="input" type="text" name="website" id="website" value="<?php echo $website; ?>" required>
+						</div>
+					</div>
+
+					<div class="field">
+						<?php if($formTitle == "Update") { ?>
+							<div class="control">
+								<input type="checkbox" name="photo-change" class="photo-change" value="1" id="photo-change"><label class="has-text-white" for="photo-change">I want to replace the current photo.</label>
+							</div>
+						<?php } ?>
+					<div class="file" id="file">
 						<label class="file-label">
-							<input class="file-input" type="file" name="image" required>
+							<input class="file-input" type="file" name="photo" id="photo-label" required>
 							<span class="file-cta">
 								<span class="file-icon">
 									<i class="fas fa-upload"></i>
 								</span>
-								<span class="file-label">
-									Upload an image*
-								</span>
+								<span class="file-label">Upload an image*</span>
 							</span>
 						</label>
 					</div>
-					<div class="field level-right">
-						<div class="control"><input class="button create" type="submit"></div>
 					</div>
-
+					<div class="level is-fullwidth" style="grid-column: 1/3">
+						<div class="level-left">
+							<a href="studentlist.php">Cancel</a>
+						</div>
+						<div class="field level-right">
+							<div class="control">
+								<input class="button create" type="submit">
+							</div>
+						</div>
+					</div>
 				</form>
 	</div>
 </section>
-<?php if($formTitle == "Update") { ?>
-		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-		<script>
-			$(document).ready(function(){
-				$("form div input[type='file']").prop("type", "hidden");
-				document.getElementById("photo-label").hidden = true;
-				document.getElementById("photo-label").style = "display:none";
-				$(".photo-change").click(function(){
-					if($(this).prop("checked") == true){
-						$("form div input[type='hidden']").prop("type", "file");
-						document.getElementById("photo-label").hidden = false;
-						document.getElementById("photo-label").style = "display:block";
-					}
-					else if($(this).prop("checked") == false){
-						$("form div input[type='file']").prop("type", "hidden");
-						 document.getElementById("photo-label").hidden = true;
-						 document.getElementById("photo-label").style = "display:none";
-					}
-				});
-			});
-		</script>
-	<?php } ?>
 </body>
 </html>
 <?php } ?>
