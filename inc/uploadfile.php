@@ -2,7 +2,7 @@
 // Handles the file being uploaded and returns the image location
 function handleFile() {
 // Check if the form was submitted
-if($_SERVER["REQUEST_METHOD"] == "POST"){
+	if($_SERVER["REQUEST_METHOD"] == "POST"){
 		// Check if file was uploaded without errors
 		if(isset($_FILES["image"]) && $_FILES["image"]["error"] == 0){
 				$allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
@@ -33,7 +33,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		} else{
 				echo "Error: " . $_FILES["image"]["error"];
 		}
-}
+	}
 	return "./images/" . $_FILES["image"]["name"];
-}
-?>
+} ?>

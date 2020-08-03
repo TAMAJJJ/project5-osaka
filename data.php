@@ -10,7 +10,7 @@ include "inc/html-top.php"; ?>
 				<?php // if there are any errors, display them
 					if ($error != '') { echo '<div class="notification is-danger container">'.$error.'</div>'; }?>
 					<form action="" method="post" class="data-entry" enctype="multipart/form-data">
-					<input type="hidden" name="id" value="<?php echo $id; ?>">
+					<input type="hidden" name="id" id="id" value="<?php echo $id; ?>">
 					<div class="field">
 						<label class="label" for="firstname">First Name: *</label>
 						<div class="control">
@@ -54,16 +54,17 @@ include "inc/html-top.php"; ?>
 								<input type="checkbox" name="photo-change" class="photo-change" value="1" id="photo-change"><label class="has-text-white" for="photo-change">I want to replace the current photo.</label>
 							</div>
 						<?php } ?>
-					<div class="file" id="file">
-						<label class="file-label">
-							<input class="file-input" type="file" name="photo" id="photo-label" required>
+					<div id="file">
+						<!-- <label class="file-label">
 							<span class="file-cta">
 								<span class="file-icon">
 									<i class="fas fa-upload"></i>
 								</span>
 								<span class="file-label">Upload an image*</span>
 							</span>
-						</label>
+						</label> -->
+						<label class="label">Upload an image*</label>
+						<input type="file" name="image" id="image" required>
 					</div>
 					</div>
 					<!-- TODO: Need to remove the inline style -->
@@ -73,7 +74,7 @@ include "inc/html-top.php"; ?>
 						</div>
 						<div class="field level-right">
 							<div class="control">
-								<input class="button create" type="submit">
+								<input class="button create" type="submit" name="submit">
 							</div>
 						</div>
 					</div>

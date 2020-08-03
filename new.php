@@ -18,9 +18,16 @@ if (isset($_POST['submit'])) {
 	$about = mysqli_real_escape_string($connection, htmlspecialchars($_POST['intro']));
 	$website = mysqli_real_escape_string($connection, htmlspecialchars($_POST['website']));
 	$image = handleFile();
+	var_dump($firstname);
+	var_dump($lastname);
+	var_dump($major);
+	var_dump($minor);
+	var_dump($about);
+	var_dump($website);
+	var_dump($image);
 
 	// check to make sure both fields are entered
-	if ($firstname == '' || $lastname == '' || $major == '' || $minor == '' || $about == '' || $website == '' || $image == '') {
+	if ($firstname == '' || $lastname == '' || $major == '' || $about == '' || $website == '' || $image == '') {
 		// generate error message
 		$error = 'ERROR: Please fill in all required fields!';
 
@@ -29,10 +36,14 @@ if (isset($_POST['submit'])) {
 
 	} else {
 		// save the data to the database
-		$result = mysqli_query($connection, "INSERT INTO osaka_directory (firstname, lastname, major, minor, about, image, website) VALUES ('$firstname', '$lastname', '$major', '$minor', '$about', $image', '$website')");
+		if ($minor == '') {
+			$result = mysqli_query($connection, "INSERT INTO osaka_directory (firstname, lastname, major, about, image, website) VALUES ('$firstname', '$lastname', '$major', '$about', '$image', '$website')");
+		} else {
+			$result = mysqli_query($connection, "INSERT INTO osaka_directory (firstname, lastname, major, minor, about, image, website) VALUES ('$firstname', '$lastname', '$major', '$minor', '$about', '$image', '$website')");
+		}
 
 		// once saved, redirect back to the view page
-		header("Location: index.php");
+		header("Location: studentlist.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form

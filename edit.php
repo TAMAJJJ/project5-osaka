@@ -18,9 +18,8 @@ if (isset($_POST['submit'])) {
 		$lastname = mysqli_real_escape_string($connection, htmlspecialchars($_POST['lastname']));
 		$major = mysqli_real_escape_string($connection, htmlspecialchars($_POST['major']));
 		$minor = mysqli_real_escape_string($connection, htmlspecialchars($_POST['minor']));
-		$about = mysqli_real_escape_string($connection, htmlspecialchars($_POST['about']));
+		$about = mysqli_real_escape_string($connection, htmlspecialchars($_POST['intro']));
 		$website = mysqli_real_escape_string($connection, htmlspecialchars($_POST['website']));
-		$image = handleFile();
 		// TODO: ADD CHECK IF IMAGE IS BEING UPDATED
 		if (isset($_POST['photo-change']) && $_POST['photo-change']== '1') {
 			$image = handleFile();
