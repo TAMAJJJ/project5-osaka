@@ -66,6 +66,7 @@ include "inc/html-top.php"; ?>
 						</label>
 					</div>
 					</div>
+					<!-- TODO: Need to remove the inline style -->
 					<div class="level is-fullwidth" style="grid-column: 1/3">
 						<div class="level-left">
 							<a href="studentlist.php">Cancel</a>
