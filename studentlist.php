@@ -7,7 +7,6 @@ include "inc/html-top.php"; ?>
 		$result = mysqli_query($connection, "SELECT * FROM osaka_directory");
 		?>
 	<header>
-		<!-- TODO: Deal with cases without minor etc -->
 		<h1 class="h1-large">Student Roster</h1>
 	</header>
 	<div class="background">
@@ -15,8 +14,12 @@ include "inc/html-top.php"; ?>
 		<?php while($row = mysqli_fetch_array( $result )) { // loop through results of database query, displaying them in the table ?>
 			<div class="grid_item_student">
 				<h2><?php echo $row['firstname']; ?> <?php echo $row['lastname']; ?></h2>
-				<h3>Major in <?php echo $row['major']; ?></h3>
-				<h3>Minor in <?php echo $row['minor']; ?></h3>
+				<h3>Major(s):</h3>
+				<h4><?php echo $row['major']; ?></h4>
+				<?php if (isset($row['minor']) && $row['minor'] !== '') { ?>
+					<h3>Minor(s):</h3>
+					<h4><?php echo $row['minor']; ?></h4>
+				<?php } ?>
 			</div>
 			<div class="grid_item_photo">
 				<img src="<?php echo $row['image']; ?>" alt="<?php echo ucfirst(basename($row['image'], ".jpg")); ?>'s Photo">
