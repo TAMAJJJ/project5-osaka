@@ -49,7 +49,7 @@ include "inc/html-top.php"; ?>
 									<i class="fas fa-upload"></i>
 								</span>
 								<span class="file-label">
-									Upload a imageture*
+									Upload an image*
 								</span>
 							</span>
 						</label>
