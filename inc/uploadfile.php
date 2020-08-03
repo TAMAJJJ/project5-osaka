@@ -34,6 +34,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 				echo "Error: " . $_FILES["image"]["error"];
 		}
 }
-	return "./images/" . $_FILES["image"]["name"];;
+	return "./images/" . $_FILES["image"]["name"];
 }
 ?>

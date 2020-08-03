@@ -1,6 +1,6 @@
 <?php
 $formTitle = "Create";
-include('data.php');
+include('./data.php');
 
 // connect to the database
 include('./inc/connect-db.php');
