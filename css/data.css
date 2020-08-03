@@ -23,7 +23,7 @@ Layout
 .data-entry{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px
+  gap: 20px
 }
 
 .intro{
@@ -33,6 +33,11 @@ Layout
 .required{
   text-align: right;
 }
+
+.hero {
+  justify-content: normal;
+}
+
 /*******************************************************
 Modules
 *******************************************************/
