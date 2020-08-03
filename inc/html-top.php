@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Osaka | Project 3</title>
+		<title>Osaka | Project 4</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Zilla+Slab:wght@500&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">

@@ -1,7 +1,7 @@
 <?php $customCSS = "<link rel='stylesheet' href='css/main.css'> ";
 include "inc/html-top.php"; ?>
 		<header>
-			<h1>CSC 174 Students<br>In Digital Media</h1>
+			<h1>CSC 174 Students</h1>
 		</header>
 		<div class="background">
 			<div class="container">
@@ -17,7 +17,7 @@ include "inc/html-top.php"; ?>
 						<a href="studentlist.php" class="button">Meet the Students!</a>
 					</div>
 			<footer>
-				<p>CSC 174: Advanced Front-end Web - Project 3</p>
+				<p>CSC 174: Advanced Front-end Web - Project 4</p>
 			</footer>
 			</div> <!-- container -->
 		</div> <!-- background -->

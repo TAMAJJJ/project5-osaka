@@ -1,6 +1,6 @@
 <?php
 // creates the edit record form
-function renderForm($id, $firstname, $lastname, $major, $minor, $pic, $error, $formTitle) { ?>
+function renderForm($id, $firstname, $lastname, $major, $minor, $about, $website, $image, $error, $formTitle) { ?>
 <?php $customCSS = "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css'> <link rel='stylesheet' href='css/data.css'>";
 include "inc/html-top.php"; ?>
 <section class="hero is-fullheight">
@@ -9,53 +9,53 @@ include "inc/html-top.php"; ?>
 				<p class="required has-text-white">*required</p>
 				<?php // if there are any errors, display them
 					if ($error != '') { echo '<div class="notification is-danger container">'.$error.'</div>'; }?>
-					<form action="" method="post" class="data-entery" enctype="multipart/form-data">
+					<form action="" method="post" class="data-entry" enctype="multipart/form-data">
 					<input type="hidden" name="id" value="<?php echo $id; ?>">
 					<div class="field">
-						<label class="label" for="firstName"> First Name: *</label>
+						<label class="label" for="firstName">First Name: *</label>
 						<div class="control">
 							<input class="input" type = "text" name="firstName" id="firstName" value="<?php echo $firstname; ?>" required>
 						</div>
 					</div>
 					<div class="field">
-						<label class="label" for="lastName"> Last Name: *</label>
+						<label class="label" for="lastName">Last Name: *</label>
 						<div class="control">
 							<input class="input" type="text" name="lastName" id="lastName" value="<?php echo $lastname; ?>" required>
 						</div>
 					</div>
 
 					<div class="field">
-						<label class="label" for="major"> Major: *</label>
+						<label class="label" for="major">Major: *</label>
 						<div class="control"><input class="input" type="text" name="major" id="major" value="<?php echo $major; ?>" required></div>
 					</div>
 					<div class="field">
-						<label class="label" for="minor"> Minor: </label>
+						<label class="label" for="minor">Minor: </label>
 						<div class="control">
-							<input class="input" type="text" name="minor" id="minor">
+							<input class="input" type="text" name="minor" id="minor" value="<?php echo $minor; ?>">
 						</div>
 					</div>
 					<div class="field intro">
 						<label class="label" for="intro"> Introduction: *</label>
 						<div class="control">
-							<textarea class="textarea is-small" rows="2" name="intro" id="intro" required></textarea>
+							<textarea class="textarea is-small" rows="5" name="intro" id="intro" required><?php echo $about; ?></textarea>
 						</div>
 					</div>
 
 					<div class="file">
 						<label class="file-label">
-							<input class="file-input" type="file" name="picture" required>
+							<input class="file-input" type="file" name="image" required>
 							<span class="file-cta">
 								<span class="file-icon">
 									<i class="fas fa-upload"></i>
 								</span>
 								<span class="file-label">
-									Upload a picture*
+									Upload a imageture*
 								</span>
 							</span>
 						</label>
 					</div>
 					<div class="field level-right">
-						<div class="control"><button class="button create" type="submit" name="Create" > Create Entry</button></div>
+						<div class="control"><input class="button create" type="submit"></div>
 					</div>
 
 				</form>
