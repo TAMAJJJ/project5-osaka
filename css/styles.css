@@ -13,7 +13,7 @@ header {
 	background-size: 100%;
 	color: white;
 	text-align: center;
-	height: 65%;
+	height: 80vh;
 	display: grid;
 	place-items: center;
 	position: fixed;
@@ -63,8 +63,8 @@ ul{
 	padding-left: 3%;
 }
 
-/* sign-in */
-.banner form, .banner h2 {
+
+/*.banner form, .banner h2 {
 	display: flex;
 	flex-wrap: wrap;
 	position: fixed;
@@ -89,7 +89,7 @@ ul{
 	margin-right: 3px;
 	margin-top: 5px;
 }
-
+*/
 footer {
 	margin-top: 30px;
 	margin-bottom: 5px;
@@ -112,6 +112,8 @@ Layout
 .banner {
 	background-color: rgba(0, 181, 229, 1);
 	background-position: center;
+  display: flex;
+  justify-content: space-between;
 	width: 100%;
 	height: 70px;
 	position: fixed;
@@ -176,6 +178,14 @@ Layout
 .background aside {
 	grid-column: 3/4;
 	font-family: 'Zilla Slab', serif;
+}
+
+#add-entry{
+  margin-right: 1%;
+  color: white;
+  font-size:25px;
+  position:relative;
+  top: 15px;
 }
 
 /*******************************************************

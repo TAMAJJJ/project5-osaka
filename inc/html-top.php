@@ -12,7 +12,7 @@
 	<body>
 		<nav class="banner" id="navbar">
 			<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-			<a href="new.php"><h2>The Form</h2></a>
+			<a href="new.php" id="add-entry">Add a Student</a>
 			<!-- <form id="login">
 				<label for="username">Login:</label>
 				<input type="text" id="username" name="username" placeholder="Username...">
