@@ -8,7 +8,7 @@ include "inc/html-top.php"; ?>
 		<div class="box">
 				<p class="required has-text-white">*required</p>
 				<?php // if there are any errors, display them
-					if ($error != '') { echo '<div class="notification is-danger container">'.$error.'</div>'; }?>
+					if ($error != '') { echo '<div class="notification is-danger">'.$error.'</div>'; }?>
 					<form action="" method="post" class="data-entry" enctype="multipart/form-data">
 					<input type="hidden" name="id" id="id" value="<?php echo $id; ?>">
 					<div class="field">
@@ -63,7 +63,7 @@ include "inc/html-top.php"; ?>
 								<span class="file-label">Upload an image*</span>
 							</span>
 						</label> -->
-						<label class="label">Upload an image*</label>
+						<label class="label" for="image" id="image-label">Upload an image*</label>
 						<input type="file" name="image" id="image" required>
 					</div>
 					</div>
