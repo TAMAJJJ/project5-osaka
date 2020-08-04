@@ -29,8 +29,8 @@ include "inc/html-top.php"; ?>
 			</div>
 			<div class="grid_item_link">
 				<a class="button" href="<?php echo $row['website']; ?>"><?php echo $row['firstname']; ?>'s Website</a>
-				<a class="button edit" href="edit.php?id=<?php echo htmlspecialchars($row['id']); ?>">Edit</a></td>
-				<a class="button delete" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a></td>
+				<a class="button revise" href="edit.php?id=<?php echo htmlspecialchars($row['id']); ?>">Edit</a></td>
+				<a class="button revise" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a></td>
 
 			</div>
 			<?php	} // close the loop ?>
