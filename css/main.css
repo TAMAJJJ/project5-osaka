@@ -4,7 +4,7 @@
 /*******************************************************
 Base
 *******************************************************/
-h1 {
+h1, .hero-text {
     text-shadow: 5px 5px 5px #000000;
     font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
     font-size: 250%;

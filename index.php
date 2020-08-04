@@ -1,7 +1,7 @@
 <?php $customCSS = "<link rel='stylesheet' href='css/main.css'> ";
 include "inc/html-top.php"; ?>
 		<header>
-			<h1>CSC 174 Students</h1>
+			<h2 class="hero-text">CSC 174 Students</h2>
 		</header>
 		<div class="background">
 			<div class="container">
