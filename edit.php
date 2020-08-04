@@ -22,16 +22,18 @@ if (isset($_POST['submit'])) {
 		$minor = mysqli_real_escape_string($connection, htmlspecialchars($_POST['minor']));
 		$about = mysqli_real_escape_string($connection, htmlspecialchars($_POST['intro']));
 		$website = mysqli_real_escape_string($connection, htmlspecialchars($_POST['website']));
-		$result = mysqli_query($connection, "SELECT * FROM osaka_directory WHERE id=$id");
-		$row = mysqli_fetch_array( $result );
-			// check that the 'id' matches up with a row in the databse
-			if($row) {
-				// get data from db
-				$image = htmlspecialchars($row['image']);
-			}
 		// TODO: ADD CHECK IF IMAGE IS BEING UPDATED
 		if (isset($_POST['photo-change']) && $_POST['photo-change']== '1') {
 			$image = handleFile();
+		} else {
+			if (isset($_GET['id']) && is_numeric($_GET['id']) && $_GET['id'] > 0) {
+			// query db
+				$id = $_GET['id'];
+				$image_data = mysqli_query($connection, "SELECT image FROM osaka_directory WHERE id=$id");
+				$image = mysqli_fetch_array($image_data)['image'];
+			}
+		// $row = mysqli_fetch_array( $result );
+			// $pic = "./images/button2.jpg";
 		}
 		// check that firstname/lastname fields are both filled in
 		if ($firstname == '' || $lastname == '' || $major == '' || $minor == '' || $about == '' || $website == '' || $image == '') {
@@ -45,7 +47,7 @@ if (isset($_POST['submit'])) {
 
 		} else {
 			// save the data to the database
-		$result = mysqli_query($connection, "UPDATE oskaka_directory SET firstname='$firstname', lastname='$lastname', major='$major', minor='$minor', about='$about', website='$website', image='$image' WHERE id=$id");
+		$result = mysqli_query($connection, "UPDATE osaka_directory SET firstname='$firstname', lastname='$lastname', major='$major', minor='$minor', about='$about', website='$website', image='$image' WHERE id='$id'");
 
 			// once saved, redirect back to the homepage page to view the results
 			header("Location: studentlist.php");
