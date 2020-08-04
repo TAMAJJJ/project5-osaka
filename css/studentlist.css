@@ -92,3 +92,11 @@ Modules
 .revise{
   background-color: #12508c;
 }
+
+.delete{
+  background-color:#690808;
+}
+
+.delete:hover{
+  background-color: #8c2020;
+}
