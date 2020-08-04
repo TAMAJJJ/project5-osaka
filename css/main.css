@@ -30,7 +30,7 @@ footer {
 Layout
 *******************************************************/
 .background {
-    margin-top: 35%; /* change how much of background image is visible */
+    margin-top: 36%; /* change how much of background image is visible */
     padding-bottom: 25px;
     font-family: Futura, Arial, sans-serif;
     color: silver;
@@ -38,7 +38,7 @@ Layout
 }
 
 .container {
-    grid-gap: 7%;
+    gap: 7%;
     grid-template-columns: 1fr 1fr 1fr;
 }
 

@@ -14,20 +14,20 @@
 			$(document).ready(function(){
 				document.getElementById("image").required = false;
 				$("form div div input[type='file']").prop("type", "hidden");
-				// document.getElementById("image-label").hidden = true;
-				// document.getElementById("image-label").style = "display:none";
+				document.getElementById("image-label").hidden = true;
+				document.getElementById("image-label").style = "display:none";
 				$(".photo-change").click(function(){
 					if($(this).prop("checked") === true){
 						$("form div div input[type='hidden']").prop("type", "file");
 						document.getElementById("image").required = true
-						// document.getElementById("image-label").hidden = false;
-						// document.getElementById("image-label").style = "display:block";
+						document.getElementById("image-label").hidden = false;
+						document.getElementById("image-label").style = "display:unset";
 					}
 					else if($(this).prop("checked") === false){
 						document.getElementById("image").required = false;
 						$("form div div input[type='file']").prop("type", "hidden");
-						 // document.getElementById("image-label").hidden = true;
-						 // document.getElementById("image-label").style = "display:none";
+						 document.getElementById("image-label").hidden = true;
+						 document.getElementById("image-label").style = "display:none";
 					}
 				});
 			});
@@ -37,7 +37,14 @@
 	<body>
 		<nav class="banner" id="navbar">
 			<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
-			<a href="new.php" id="add-entry">Add a Student</a>
+			<?php if ($formTitle=="Update") { ?>
+				<a href="studentlist.php" id="add-entry">Back to Student List</a>
+			<?php } elseif ($formTitle =="Create") { ?>
+				<a href="index.php" id="add-entry">Back to Home Page</a>
+			<?php } else { ?>
+				<a href="new.php" id="add-entry">Add a Student</a>
+			<?php } ?>
+
 			<!-- <form id="login">
 				<label for="username">Login:</label>
 				<input type="text" id="username" name="username" placeholder="Username...">

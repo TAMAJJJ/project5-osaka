@@ -8,8 +8,6 @@ include('./inc/connect-db.php');
 //Handle imagetures/files and return the image location
 include('./inc/uploadfile.php');
 
-var_dump($connection);
-
 // check if the form (from renderform.php) has been submitted. If it has, process the form and save it to the database
 if (isset($_POST['submit'])) {
 	// confirm that the 'id' value is a valid integer before getting the form data
