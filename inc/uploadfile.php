@@ -22,16 +22,17 @@ function handleFile() {
 				if(in_array($filetype, $allowed)){
 						// Check whether file exists before uploading it
 						if(file_exists("./images/" . $filename)){
-								echo $filename . " is already exists.";
+								$error = $filename . " is already exists.";
 						} else{
 								move_uploaded_file($_FILES["image"]["tmp_name"], "./images/" . $filename);
-								echo "Your file was uploaded successfully.";
+								// echo "Your file was uploaded successfully.";
+								// header("Location: studentlist.php");
 						} 
 				} else{
-						echo "Error: There was a problem uploading your file. Please try again."; 
+						$error = "Error: There was a problem uploading your file. Please try again."; 
 				}
 		} else{
-				echo "Error: " . $_FILES["image"]["error"];
+				$error = "Error: " . $_FILES["image"]["error"];
 		}
 	}
 	return "./images/" . $_FILES["image"]["name"];

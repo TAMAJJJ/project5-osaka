@@ -1,5 +1,4 @@
-<?php
-$formTitle = "Update";
+<?php $formTitle = "Update"; 
 include('data.php');
 
 // connect to the database

@@ -9,7 +9,7 @@ include "inc/html-top.php"; ?>
 		<p class="required has-text-white">*required</p>
 		<?php // if there are any errors, display them
 		if ($error != '') { echo '<div class="notification is-danger">'.$error.'</div>'; }?>
-		<form action="" method="post" class="data-entry" enctype="multipart/form-data">
+		<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post" class="data-entry" enctype="multipart/form-data">
 			<input type="hidden" name="id" id="id" value="<?php echo $id; ?>">
 			<div class="field">
 				<label class="label" for="firstname">First Name: *</label>
@@ -52,7 +52,7 @@ include "inc/html-top.php"; ?>
 				</div>
 				<?php } ?>
 					<label class="label" for="image" id="image-label">Upload an image*</label>
-				<div id="control ">
+				<div id="control">
 					<input type="file" name="image" id="image" class="has-background-white" required>
 				</div>
 			</div>

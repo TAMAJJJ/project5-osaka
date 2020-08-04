@@ -18,13 +18,6 @@ if (isset($_POST['submit'])) {
 	$about = mysqli_real_escape_string($connection, htmlspecialchars($_POST['intro']));
 	$website = mysqli_real_escape_string($connection, htmlspecialchars($_POST['website']));
 	$image = handleFile();
-	var_dump($firstname);
-	var_dump($lastname);
-	var_dump($major);
-	var_dump($minor);
-	var_dump($about);
-	var_dump($website);
-	var_dump($image);
 
 	// check to make sure both fields are entered
 	if ($firstname == '' || $lastname == '' || $major == '' || $about == '' || $website == '' || $image == '') {
