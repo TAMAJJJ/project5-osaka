@@ -54,7 +54,6 @@
 			<?php } elseif ($formTitle =="Create") { ?>
 				<a href="index.php" id="add-entry">Back to Student List</a>
 			<?php } else { ?>
-<<<<<<< HEAD
 				
 				<?php if(isset($_SESSION['username'])) { ?>
 				<a href="new.php" id="add-entry">Add a Student</a>
@@ -63,7 +62,7 @@
   				<?php } else { ?>
    					<a class="btn" href="login.php" id="add-entry">Login</a>
  				<?php } ?>
-<?php } ?>
+			<?php } ?>
 
 			<!-- <form id="login">
 				<label for="username">Login:</label>
