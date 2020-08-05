@@ -51,12 +51,13 @@
 			<?php } else { ?>
 				
 				<?php if(isset($_SESSION['username'])) { ?>
-				<a href="new.php" id="add-entry">Add a Student</a>
-    				<a class="btn" href="logout.php" id="add-entry">Logout</a>
-   					<a class="btn" href="reset-password.php" id="add-entry">Reset Password</a>
-  				<?php } else { ?>
-   					<a class="btn" href="login.php" id="add-entry">Login</a>
- 				<?php } ?>
+					<a href="new.php" id="add-entry">Add a Student</a>
+					<a class="btn" href="logout.php" id="add-entry">Logout</a>
+					<a class="btn" href="reset-password.php" id="add-entry">Reset Password</a>
+				<?php } else { ?>
+					<a class="btn" href="login.php" id="add-entry">Login</a>
+				<?php } ?>
+				
 			<?php } ?>
 
 			<!-- <form id="login">
