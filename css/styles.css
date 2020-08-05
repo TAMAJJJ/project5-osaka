@@ -106,6 +106,7 @@ a {
 	text-decoration: none;
 }
 
+
 /*******************************************************
 Layout
 *******************************************************/
@@ -183,9 +184,9 @@ Layout
 #add-entry{
   margin-right: 1%;
   color: white;
-  font-size:25px;
-  position:relative;
-  top: 15px;
+  font-size: 25px;
+  position: relative;
+  top: 20px;
 }
 
 #add-entry:hover{
@@ -283,3 +284,5 @@ aside a {
 .back-button:hover {
 	background-color: #b8ff99;
 }
+
+

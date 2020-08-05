@@ -89,6 +89,10 @@ Modules
   gap: 10px;
 }
 
+.grid_item_modify{
+  min-width: 15ch;
+}
+
 .revise{
   background-color: #12508c;
 }
@@ -100,3 +104,4 @@ Modules
 .delete:hover{
   background-color: #8c2020;
 }
+
