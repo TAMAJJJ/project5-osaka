@@ -29,9 +29,11 @@ include "inc/html-top.php"; ?>
 			</div>
 			<div class="grid_item_link">
 				<a class="button" href="<?php echo $row['website']; ?>"><?php echo $row['firstname']; ?>'s Website</a>
-				<a class="button revise" href="edit.php?id=<?php echo htmlspecialchars($row['id']); ?>">Edit</a>
-				<a class="button delete" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a>
-
+				<?php if(isset($_SESSION['username'])) { ?>
+    				<a class="button revise" href="edit.php?id=<?php echo htmlspecialchars($row['id']); ?>">Edit</a>
+					<a class="button delete" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a>
+  				<?php } ?>
+			
 			</div>
 			<?php	} // close the loop ?>
 			<footer class="list-footer">

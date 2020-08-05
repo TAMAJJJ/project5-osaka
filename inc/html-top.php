@@ -1,9 +1,11 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Osaka | Project 4</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Zilla+Slab:wght@500&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
@@ -42,7 +44,14 @@
 			<?php } elseif ($formTitle =="Create") { ?>
 				<a href="index.php" id="add-entry">Back to Home Page</a>
 			<?php } else { ?>
+				
+				<?php if(isset($_SESSION['username'])) { ?>
 				<a href="new.php" id="add-entry">Add a Student</a>
+    				<a class="btn" href="logout.php" id="add-entry">Logout</a>
+   					<a class="btn" href="reset-password.php" id="add-entry">Reset Password</a>
+  				<?php } else { ?>
+   					<a class="btn" href="login.php" id="add-entry">Login</a>
+ 				<?php } ?>
 			<?php } ?>
 
 			<!-- <form id="login">
