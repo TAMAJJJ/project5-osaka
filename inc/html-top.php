@@ -9,6 +9,10 @@
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Zilla+Slab:wght@500&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+
+		<link rel="stylesheet" href="css/override.css">
+
+
 		<?php echo $customCSS; ?>
 		<?php if(isset($formTitle) && $formTitle == "Update") { ?>
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -39,11 +43,18 @@
 	<body>
 		<nav class="banner" id="navbar">
 			<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
+
+
+			<a href="new.php" class="new-btn">Add New Student</a>
+			
+
+
 			<?php if ($formTitle=="Update") { ?>
 				<a href="studentlist.php" id="add-entry">Back to Student List</a>
 			<?php } elseif ($formTitle =="Create") { ?>
-				<a href="index.php" id="add-entry">Back to Home Page</a>
+				<a href="index.php" id="add-entry">Back to Student List</a>
 			<?php } else { ?>
+<<<<<<< HEAD
 				
 				<?php if(isset($_SESSION['username'])) { ?>
 				<a href="new.php" id="add-entry">Add a Student</a>
@@ -52,7 +63,7 @@
   				<?php } else { ?>
    					<a class="btn" href="login.php" id="add-entry">Login</a>
  				<?php } ?>
-			<?php } ?>
+<?php } ?>
 
 			<!-- <form id="login">
 				<label for="username">Login:</label>
