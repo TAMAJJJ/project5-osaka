@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&display=swap');
+
 .new-btn{
 	font-size: 30px;
 
@@ -26,3 +28,38 @@
 	display: block;
 	font-size: 25px;
 }
+
+.col-centered 
+{
+    display:inline-block;
+    float:none;
+	text-align:left;
+	margin: 0 auto;
+    text-align: center;
+}
+
+.row-centered 
+{
+    text-align:center;
+}
+
+.form-background
+{
+	background-image: url(../images/digital_background.png);
+}
+
+.login
+{
+	background-color: black;
+    padding: 50px;
+    margin-top: 100px;
+    border: solid 10px;
+    border-color: rgb(0, 181, 229);
+	color:white;
+	font-family: 'Zilla Slab', serif;
+	line-height: 1.5;
+	font-size: 19px;
+}
+
+
+
