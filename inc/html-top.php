@@ -38,12 +38,7 @@
 				});
 			});
 			
-			$(document).ready(function(){
-				$('button.toggler').click(function(){
-       				alert('cliicked');
-					$('#grid_item_modify').toggle();
-   				 });
-			}
+
 			
 		</script>
 	<?php } ?>
@@ -70,7 +65,8 @@
 						<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
 						<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
 					</div>
-						<button class="modify-done toggler" id="modify-done">Modify</button>			
+					
+					<button class="modify-done toggler" id="modify-done">Done</button>			
 				<?php } else { ?>
 					<a class="btn" href="login.php" id="login">Login</a>
 				<?php } ?>
