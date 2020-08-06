@@ -141,7 +141,7 @@ Layout
 /* main content */
 .background {
 	/* grid specifications */
-	margin-top: 30%; /* control how much of background image is visible */
+	margin-top: 26%; /* control how much of background image is visible */
 	width: 100%;
 	margin-left: 0;
 	padding-top: 25px;
@@ -186,7 +186,7 @@ Layout
   color: white;
   font-size: 30px;
   position: relative;
-  top: 20px;
+  top: 5px;
 }
 
 #add-entry:hover{

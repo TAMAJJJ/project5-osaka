@@ -9,7 +9,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "rgba(0, 181, 229, 0.6)";
     document.getElementById("logo").style.fontSize = "20px";
     document.getElementById("logo").style.top = "4px";
-    document.getElementById("add-entry").style.top = "8px";
+    document.getElementById("add-entry").style.top = "-6px";
     document.getElementById("add-entry").style.fontSize = "25px";
     document.getelementsbyclassname
   } else {
@@ -17,7 +17,7 @@ function scrollFunction() {
     document.getElementById("navbar").style.backgroundColor = "rgba(0, 181, 229, 1)";
     document.getElementById("logo").style.fontSize = "35px";
     document.getElementById("logo").style.top = "8px";
-    document.getElementById("add-entry").style.top = "20px";
+    document.getElementById("add-entry").style.top = "5px";
     document.getElementById("add-entry").style.fontSize = "30px";
   }
 }
