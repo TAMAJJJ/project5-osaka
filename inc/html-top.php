@@ -56,10 +56,9 @@
 				<a href="studentlist.php" id="add-entry">Back to Student List</a>
 			<?php } elseif ($formTitle =="Create") { ?>
 				<a href="index.php" id="add-entry">Back to Student List</a>
-			<?php } else { ?>
-				
+			<?php } else { ?>	
 				<?php if(isset($_SESSION['username'])) { ?>
-					<a href="new.php" id="add-new" class="new-btn btn btn-primary">Add New Student</a>	
+					<a style="display:none;" href="new.php" id="add-new" class="new-btn btn btn-primary">Add New Student</a>	
 
 					<div class="logout-reset" id="logout-reset">
 						<a class="btn" id="modify">Modify Content</a>
