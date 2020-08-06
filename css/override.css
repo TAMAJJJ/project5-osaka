@@ -60,5 +60,11 @@
 	font-size: 19px;
 }
 
+.help-block, .has-error, .has-error .form-control
+{
+	color: #a94442;
+	border-color: #a94442;
+}
+
 
 
