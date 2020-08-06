@@ -67,7 +67,7 @@
 						<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
 					</div>
 					
-					<button class=" btn btn-primary modify-done" id="done">Done</button>			
+					<button style="display:none;" class=" btn btn-primary modify-done" id="done">Done</button>			
 				<?php } else { ?>
 					<a class="btn" href="login.php" id="login">Login</a>
 				<?php } ?>
