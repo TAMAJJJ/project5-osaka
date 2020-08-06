@@ -39,7 +39,7 @@ function scrollFunction() {
     if (document.getElementById("login") == null) {
 
         document.getElementById("logout").style.top = "5px";
-        document.getElementById("logout").style.fontSize = "25px";
+        document.getElementById("logout").style.fontSize = "30px";
 
         document.getElementById("add-new").style.top = "10px";
         document.getElementById("add-new").style.fontSize = "30px";

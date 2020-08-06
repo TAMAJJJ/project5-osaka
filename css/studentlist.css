@@ -110,12 +110,16 @@ Modules
 
 .revise{
   margin-top: 60%;
+  font-size: 21px;
+  font-weight: 600;
 
   background-color: #12508c;
 }
 
 .delete{
   margin-top: 22%;
+  font-size: 21px;
+  font-weight: 600;
 
   background-color:#690808;
 }

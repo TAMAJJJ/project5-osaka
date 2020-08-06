@@ -57,7 +57,7 @@
 			<?php } else { ?>
 				
 				<?php if(isset($_SESSION['username'])) { ?>
-					<a href="new.php" id="add-new" class="new-btn">Add New Student</a>
+					<a href="new.php" id="add-new" class="new-btn" title="Expected to be more obvious than other buttons in navigation bar">Add New Student</a>
 
 					<div class="logout-reset" id="logout-reset">
 						<a class="btn" href="reset-password.php" id="reset">Reset Password</a>

@@ -2,7 +2,8 @@
 
 .new-btn{
 	font-size: 30px;
-
+	font-weight: 600;
+	
 	position: absolute;
 	left: 50%;
 	transform: translate( -50%, 0);
@@ -26,8 +27,11 @@
 }
 .modify-done a{
 	display: block;
-	font-size: 25px;
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: -4px;
 }
+
 
 .col-centered 
 {
