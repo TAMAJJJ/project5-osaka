@@ -109,10 +109,14 @@ Modules
 }
 
 .revise{
+  margin-top: 60%;
+
   background-color: #12508c;
 }
 
 .delete{
+  margin-top: 22%;
+
   background-color:#690808;
 }
 
