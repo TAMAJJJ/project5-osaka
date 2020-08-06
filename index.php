@@ -24,5 +24,10 @@ include "inc/html-top.php"; ?>
 			</div> <!-- container -->
 		</div> <!-- background -->
 	<?php include "inc/scripts.php" ?>
+
+	<script>
+		document.getElementById("add-new").style.display= "none";
+	</script>
+
 	</body>
 </html>

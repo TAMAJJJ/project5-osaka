@@ -16,6 +16,7 @@
 		<?php echo $customCSS; ?>
 		<?php if(isset($formTitle) && $formTitle == "Update") { ?>
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
 		<script>
 			$(document).ready(function(){
 				document.getElementById("image").required = false;
@@ -39,10 +40,15 @@
 			});
 		</script>
 	<?php } ?>
+
 	</head>
+
+
 	<body>
 		<nav class="banner" id="navbar">
 			<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
+
+
 
 			<?php if ($formTitle=="Update") { ?>
 				<a href="studentlist.php" id="add-entry">Back to Student List</a>
@@ -51,18 +57,16 @@
 			<?php } else { ?>
 				
 				<?php if(isset($_SESSION['username'])) { ?>
-					<a href="new.php" id="add-entry">Add a Student</a>
+
+					<a href="new.php" id="add-new">Add a Student php</a>
+
 					<a class="btn" href="logout.php" id="add-entry">Logout</a>
-					<a class="btn" href="reset-password.php" id="add-entry">Reset Password</a>
+					<a class="btn" href="reset-password.php">Reset Password</a>
+
 				<?php } else { ?>
 					<a class="btn" href="login.php" id="add-entry">Login</a>
 				<?php } ?>
 				
 			<?php } ?>
 
-			<!-- <form id="login">
-				<label for="username">Login:</label>
-				<input type="text" id="username" name="username" placeholder="Username...">
-				<input type="text" id="password" name="password" placeholder="Password...">
-			</form> -->
 		</nav>
