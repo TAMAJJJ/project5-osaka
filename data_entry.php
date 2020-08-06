@@ -1,7 +1,7 @@
 <?php
 	require_once("./inc/connect-db.php");
 
-	mysqli_real_escape_string($connection, htmlspecialchars($_POST('firstName')))
+	mysqli_real_escape_string($connection, htmlspecialchars($_POST('firstName')));
 	$firstName = mysqli_real_escape_string($connection, htmlspecialchars($_POST('firstName')));
 	$lastName = mysqli_real_escape_string($connection, htmlspecialchars($_POST('lastName')));
 	$major = mysqli_real_escape_string($connection, htmlspecialchars($_POST('major')));
