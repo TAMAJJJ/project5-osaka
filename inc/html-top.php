@@ -57,14 +57,18 @@
 			<?php } else { ?>
 				
 				<?php if(isset($_SESSION['username'])) { ?>
+					<a href="new.php" id="add-new" class="new-btn">Add New Student</a>
 
-					<a href="new.php" id="add-new">Add a Student php</a>
+					<div class="logout-reset" id="logout-reset">
+						<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
+						<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
+					</div>
 
-					<a class="btn" href="logout.php" id="add-entry">Logout</a>
-					<a class="btn" href="reset-password.php">Reset Password</a>
-
+					<div class="modify-done" id="modify-done">
+						<a href="" title="Done with modfify. Hide all buttons.">Done</a>
+					</div>
 				<?php } else { ?>
-					<a class="btn" href="login.php" id="add-entry">Login</a>
+					<a class="btn" href="login.php" id="login">Login</a>
 				<?php } ?>
 				
 			<?php } ?>
