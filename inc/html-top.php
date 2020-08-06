@@ -59,14 +59,15 @@
 			<?php } else { ?>
 				
 				<?php if(isset($_SESSION['username'])) { ?>
-					<a href="new.php" id="add-new" class="new-btn" title="Expected to be more obvious than other buttons in navigation bar">Add New Student</a>
+					<a href="new.php" id="add-new" class="new-btn btn btn-primary">Add New Student</a>	
 
 					<div class="logout-reset" id="logout-reset">
+						<a class="btn" id="modify">Modify Content</a>
 						<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
 						<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
 					</div>
 					
-					<button class="modify-done toggler" id="modify-done">Done</button>			
+					<button class=" btn btn-primary modify-done" id="done">Done</button>			
 				<?php } else { ?>
 					<a class="btn" href="login.php" id="login">Login</a>
 				<?php } ?>

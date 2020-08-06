@@ -183,14 +183,16 @@ Layout
 	font-family: 'Zilla Slab', serif;
 }
 
-#add-entry, #reset, #login, #logout{
-  color: white;
-  font-size: 30px;
-  position: relative;
-  top: 5px;
+#add-entry, #reset, #login, #logout , #modify{
+  	color: white;
+  	font-size: 22px;
+  	position: relative;
+  	top: 5px;
 }
-
-#add-entry:hover, #reset:hover, #login:hover, #logout:hover{
+#login, #logout{
+  	font-size: 30px;
+}
+#add-entry:hover, #reset:hover, #login:hover, #logout:hover, #modify:hover{
   text-decoration:underline;
 }
 

@@ -16,12 +16,12 @@ function scrollFunction() {
         document.getElementById("logout").style.fontSize = "25px";
 
         document.getElementById("reset").style.top = "-6px";
-        document.getElementById("reset").style.fontSize = "25px";
+        document.getElementById("reset").style.fontSize = "20px";
 
-        document.getElementById("add-new").style.top = "3px";
-        document.getElementById("add-new").style.fontSize = "25px";
+        document.getElementById("modify").style.top = "-6px";
+        document.getElementById("modify").style.fontSize = "20px";
 
-        document.getElementById("logout-reset").style.width = "16%";
+        document.getElementById("logout-reset").style.width = "440px";
     }
     else{
         document.getElementById("login").style.top = "-6px";
@@ -41,13 +41,13 @@ function scrollFunction() {
         document.getElementById("logout").style.top = "5px";
         document.getElementById("logout").style.fontSize = "30px";
 
-        document.getElementById("add-new").style.top = "10px";
-        document.getElementById("add-new").style.fontSize = "30px";
-
         document.getElementById("reset").style.top = "5px";
-        document.getElementById("reset").style.fontSize = "30px";
+        document.getElementById("reset").style.fontSize = "22px";
 
-        document.getElementById("logout-reset").style.width = "20%";
+        document.getElementById("modify").style.top = "5px";
+        document.getElementById("modify").style.fontSize = "22px";
+
+        document.getElementById("logout-reset").style.width = "490px";
     }
     else{
         document.getElementById("login").style.top = "5px";

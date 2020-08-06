@@ -6,21 +6,31 @@
 
 <script>
 	var addButton = document.getElementById("add-new");
-	var deleteButton = document.getElementById("delete");
-	var editButton = document.getElementById("edit");
+	var deleteButton = document.getElementsByClassName("delete");
+	var editButton = document.getElementsByClassName("edit");
+	var doneButton = document.getElementById("done");
 	
 	$(document).ready(function(){
-		$("#modify-done").click( function(){ 
-
+		$("#done").click( function(){ 
 			if(addButton.style.display != "none"){
 				addButton.style.display = "none";
-				deleteButton.style.display = "none";
-				editButton.style.display = "none";
+				doneButton.style.display = "none";
+				for(i = 0; i < deleteButton.length; i++){
+					deleteButton[i].style.display = "none";
+					editButton[i].style.display = "none";
+				}
 			}
-			else{
+		});
+		$("#modify").click( function(){ 
+			if(doneButton.style.display == "none"){
+				doneButton.style.display = "block";
+
 				addButton.style.display = "block";
-				deleteButton.style.display = "block";
-				editButton.style.display = "block";
+				for(i = 0; i < deleteButton.length; i++){
+					deleteButton[i].style.display = "block";
+					editButton[i].style.display = "block";
+				}
+				
 			}
 		});
 	});

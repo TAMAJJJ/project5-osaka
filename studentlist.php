@@ -30,9 +30,9 @@ include "inc/html-top.php"; ?>
 
 			<div class="grid_item_modify">
 				<?php if(isset($_SESSION['username'])) { ?>
-    				<a class="button revise" id="edit"href="edit.php?id=<?php echo htmlspecialchars($row['id']); ?>">Edit</a>
+    				<a class="button revise edit"  id="edit" href="edit.php?id=<?php echo htmlspecialchars($row['id']); ?>">Edit</a>
 
-					<a class="button delete" id="delete" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a>
+					<a class="button delete"  id="delete" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a>
   				<?php } ?>
 			</div>
 			<?php	} // close the loop ?>
