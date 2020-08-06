@@ -98,10 +98,11 @@ Modules
 
 .grid_item_link{
   min-width: 15ch;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
+.grid_item_link a.button{
+  margin-top: 73%;
+}
+
 
 .grid_item_modify{
   min-width: 15ch;
