@@ -93,7 +93,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/override.css">
     <style type="text/css">
         body{ font: 14px sans-serif; }
@@ -140,6 +142,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             
         </div>
+
+        <!-- <footer class="list-footer" >
+				<p>CSC 174: Advanced Front-end Web - Project 4</p>
+		</footer> -->
 
     </div>
 </body>
