@@ -1,7 +1,28 @@
 .new-btn{
-	font-size: 25px;
-	position: relative;
-	top: 20px;
+	font-size: 30px;
+
+	position: absolute;
+	left: 50%;
+	transform: translate( -50%, 0);
+	top: 13px;
 
 	color: white;
+}
+
+.logout-reset{
+	width: 20%;
+}
+
+.modify-done{
+	position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    background-color: white;
+
+    text-align: center;
+}
+.modify-done a{
+	display: block;
+	font-size: 25px;
 }

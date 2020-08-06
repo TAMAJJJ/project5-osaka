@@ -26,7 +26,9 @@ include "inc/html-top.php"; ?>
 	<?php include "inc/scripts.php" ?>
 
 	<script>
+		//only for index.php
 		document.getElementById("add-new").style.display= "none";
+		document.getElementById("modify-done").style.display= "none";
 	</script>
 
 	</body>

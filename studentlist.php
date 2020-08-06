@@ -35,14 +35,16 @@ include "inc/html-top.php"; ?>
 					<a class="button delete" onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo htmlspecialchars($row['id']); ?>">Delete</a>
   				<?php } ?>
 			</div>
-
-
 			<?php	} // close the loop ?>
 
-			<footer class="list-footer">
+			
+
+			<footer class="list-footer" >
 				<p>CSC 174: Advanced Front-end Web - Project 4</p>
 			</footer>
 		</div>
+
+		
 	</div>
 	<?php include "inc/scripts.php" ?>
 </body>
