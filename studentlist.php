@@ -40,7 +40,7 @@ include "inc/html-top.php"; ?>
 			
 
 			<footer class="list-footer" >
-				<p>CSC 174: Advanced Front-end Web - Project 4</p>
+				<p>CSC 174: Advanced Front-end Web - Project 5</p>
 			</footer>
 		</div>
 
