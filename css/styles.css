@@ -2,7 +2,7 @@
 /*******************************************************
 Base
 *******************************************************/
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap');
 
 * {
   margin: 0;
@@ -34,10 +34,10 @@ aside {
 }
 
 h1 {
-  font-family: "Montserrat", Arial, sans-serif;
+  /* font-family: "Montserrat", Arial, sans-serif; */
   font-size: 100%;
   letter-spacing: 0.5px;
-  text-shadow: 5px -5px 5px #000000;
+  /* text-shadow: 5px -5px 5px #000000; */
   vertical-align: middle;
 }
 
@@ -118,15 +118,17 @@ Layout
   position: fixed;
   transition-duration: 0.4s;
   z-index: 3;
+  font-family: 'Zilla Slab', serif;
 }
 
 .logo {
   color: #ffffff;
-  font-family: Montserrat, Arial, sans-serif;
+  /* font-family: "Montserrat", Arial, sans-serif; */
+  font-family: 'Zilla Slab', serif;
   font-weight: normal;
   font-size: 35px;
   letter-spacing: 2px;
-  text-shadow: 5px 5px 12px #000000;
+  /* text-shadow: 5px 5px 12px #000000; */
   text-align: center;
   padding: 5px;
   position: fixed;
@@ -153,16 +155,14 @@ Layout
   background-size: cover;
 }
 
-.container {
+/* .container {
   display: grid;
-  /* Article and aside in approximately-ish golden ratio- adjusted
-	for buttons taking up more space */
   grid-template-columns: 21.6% 21.6% 28.8%;
   gap: 130px;
   margin: 0 auto;
   width: 85%;
   max-width: 1000px;
-}
+} */
 
 /* article */
 .background article {

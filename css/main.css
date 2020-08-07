@@ -1,27 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap');
+
 /* HOME PAGE */
 
 /* SMACSS layout - https://smacss.com/book */
 /*******************************************************
 Base
 *******************************************************/
-h1, .hero-text {
-    text-shadow: 5px 5px 5px #000000;
-    font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
-    font-size: 250%;
+h1, .hero-text 
+{
+    /* text-shadow: 5px 5px 5px #000000; */
+    /* font-family: 'Futura-CondensedExtraBold', Arial, sans-serif; */
+    /* font-size: 250%; */
+    font-size: 50px;
     line-height: normal;
     letter-spacing: normal;
+    font-family: 'Zilla Slab', serif;
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 24px;
     color: #e3e3e3;
-    font-family: Futura, Arial, sans-serif;
+    /* font-family: Futura, Arial, sans-serif; */
 
 }
 
-footer {
-  font-family: 'Zilla Slab', serif;
-	margin: 10px 35px -2px 5px;
+footer 
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 35px -2px 5px;
 	font-size: 12px;
 	color: #9e9e9e;
 }
@@ -32,25 +38,25 @@ Layout
 .background {
     margin-top: 36%; /* change how much of background image is visible */
     padding-bottom: 25px;
-    font-family: Futura, Arial, sans-serif;
+    /* font-family: Futura, Arial, sans-serif; */
     color: silver;
-
+    font-family: 'Zilla Slab', serif;
 }
-
+/* 
 .container {
     gap: 7%;
     grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 
-.column_1 {
+/* .column_1 {
     grid-column: 1 / 2;
 
 }
 
 .column_2 {
     font-size: 13px;
-}
+} */
 
 /*******************************************************
 Modules
@@ -61,11 +67,14 @@ Modules
 
 }
 
-.container p {
-    line-height: 21px;
+.container p 
+{
+    line-height: 24px;
+    font-size: 16px;
 }
 
-.column_3 a {
+.column_3 a 
+{
     font-size: 30px;
 }
 
@@ -88,10 +97,12 @@ Modules
     display: block;
     font-size: 30px;
     border-radius: 15px;
-	font-family: Futura, Arial, sans-serif;
+	/* font-family: Futura, Arial, sans-serif; */
   	margin: 0px 2px;
   	transition-duration: 0.4s;
-  	cursor: pointer;
+    cursor: pointer;
+    font-family: 'Zilla Slab', serif;
+
 }
 
 .button:hover {
