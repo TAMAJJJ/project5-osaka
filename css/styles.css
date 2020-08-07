@@ -2,7 +2,7 @@
 /*******************************************************
 Base
 *******************************************************/
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -33,16 +33,20 @@ aside {
   color: silver;
 }
 
-h1 {
-  font-family: "Montserrat", Arial, sans-serif;
+h1 
+{
+  /* font-family: "Montserrat", Arial, sans-serif; */
   /* font-size: 100%;
   letter-spacing: 0.5px;
   text-shadow: 5px -5px 5px #000000;
   vertical-align: middle; */
+  font-family: "Zilla Slab", serif;
 }
 
-h2 {
-  font-family: "Montserrat", Arial, sans-serif;
+h2 
+{
+  /* font-family: "Montserrat", Arial, sans-serif; */
+  font-family: "Zilla Slab", serif;
   color: white;
 }
 
@@ -120,11 +124,14 @@ Layout
   z-index: 3;
   top: 0;
   right: 0;
+  /* font-family: "Montserrat", Arial, sans-serif; */
+  font-family: "Zilla Slab", serif;
 }
 
 .logo {
   color: #ffffff;
-  font-family: Montserrat, Arial, sans-serif;
+  /* font-family: "Montserrat", Arial, sans-serif; */
+  font-family: "Zilla Slab", serif;
   font-weight: normal;
   font-size: 35px;
   letter-spacing: 2px;
@@ -148,7 +155,9 @@ Layout
   z-index: 2;
   background-color: #020b0e;
   background-size: 100% 100%;
-  font-family: "Zilla Slab", serif;
+  /* font-family: "Zilla Slab", serif; */
+  font-family: "Montserrat", Arial, sans-serif;
+
   border-top: 1px solid gray;
   line-height: 1.5;
   font-size: 21px;
@@ -199,15 +208,24 @@ Layout
   text-decoration: underline;
 }
 
+#login
+{
+  font-family: "Zilla Slab", serif;
+}
+
 /*******************************************************
 Modules
 *******************************************************/
 .h1-large {
-  font-size: 250%;
+  /* font-size: 250%; */
   letter-spacing: 1px;
-  font-family: "Montserrat", Arial, sans-serif;
+  /* font-family: "Montserrat", Arial, sans-serif; */
+  font-family: "Zilla Slab", serif;
   line-height: 40px;
   margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 50px;
+
 }
 
 .external_link {
