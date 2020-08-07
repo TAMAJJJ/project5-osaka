@@ -18,8 +18,6 @@
 {
 	margin-top: 15px;
 	text-align: center;
-	font-family: "Zilla Slab", serif;
-
 }
 
 .login-cancel a
@@ -130,6 +128,11 @@ small
 .text-muted
 {
 	color: white !important;
+}
+
+.btn
+{
+	font-family: "Zilla Slab", serif;
 }
 
 
