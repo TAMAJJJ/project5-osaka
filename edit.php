@@ -33,14 +33,14 @@ if (isset($_POST['submit'])) {
 			// $pic = "./images/button2.jpg";
 		}
 		// check that firstname/lastname fields are both filled in
-		if ($firstname == '' || $lastname == '' || $major == '' || $minor == '' || $about == '' || $website == '' ) {
+		if ($firstname == '' || $lastname == '' || $major == '' || $about == '' || $website == '' ) {
 			
 
 			// generate error message
 			$error = 'ERROR: Please fill in all required fields!';
 
 			//error, display form
-			renderForm($id, $firstname, $lastname, $major, $minor, $about, $website, $error, $formTitle);
+			renderForm($id, $firstname, $lastname, $major, $minor, $about, $website, $image, $error, $formTitle);
 
 		} else {
 			// save the data to the database
