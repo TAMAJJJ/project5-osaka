@@ -46,7 +46,7 @@ include "inc/html-top.php"; ?>
 			<div class="field fullwidth">
 				<label class="label" for="website">Website: *</label>
 				<div class="control">
-					<input class="form-control" type="text" name="website" id="website" value="<?php echo $website; ?>" placeholder="Please include https://" required>
+					<input class="form-control" type="text" name="website" id="website" value="<?php echo $website; ?>" placeholder="Please include http://" required>
 				</div>
 			</div>
 			<div class="field fullwidth">
