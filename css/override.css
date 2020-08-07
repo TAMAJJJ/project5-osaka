@@ -14,11 +14,16 @@
 }
 
 
-.login-cancel{
+.login-cancel
+{
 	margin-top: 15px;
 	text-align: center;
+	font-family: "Zilla Slab", serif;
+
 }
-.login-cancel a{
+
+.login-cancel a
+{
 	color: white;
 }
 

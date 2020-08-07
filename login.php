@@ -133,7 +133,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
                                 </div>
                                 <div class="login-cancel">
-                                	<a href="studentlist.php">Cancel</a>
+                                	<a class = "btn btn-danger btn-block btn-lg" href="studentlist.php">Cancel</a>
                             	</div>
                             </form>
 
