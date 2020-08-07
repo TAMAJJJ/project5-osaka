@@ -10,6 +10,7 @@
     bottom: 50px;
 
 	color: white;
+	z-index: 3;
 }
 
 .logout-reset{
@@ -21,10 +22,10 @@
 
     position: fixed;
     bottom: 0;
-
     padding: 0;
 
     font-size: 25px;
+    z-index: 3;
 }
 .modify-done a{
 	display: block;

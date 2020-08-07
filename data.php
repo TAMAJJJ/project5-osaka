@@ -4,11 +4,15 @@ function renderForm($id, $firstname, $lastname, $major, $minor, $about, $website
 <?php $customCSS = "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css'> <link rel='stylesheet' href='css/data.css'>";
 include "inc/html-top.php"; ?>
 <section class="hero is-fullheight">
-	<h2 class="title is-1"><?php echo $formTitle; ?> Student Data Entry</h2>
+
 	<div class="box">
+		<h2 class="title is-1"><?php echo $formTitle; ?> Student Data Entry</h2>
+
 		<p class="required has-text-white">*required</p>
+
 		<?php // if there are any errors, display them
 		if ($error != '') { echo '<div class="notification is-danger">'.$error.'</div>'; }?>
+		
 		<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post" class="data-entry" enctype="multipart/form-data">
 			<input type="hidden" name="id" id="id" value="<?php echo $id; ?>">
 			<div class="field">

@@ -58,7 +58,6 @@
 				<a href="index.php" id="add-entry">Back to Student List</a>
 			<?php } else { ?>	
 				<?php if(isset($_SESSION['username'])) { ?>
-					<a style="display:none;" href="new.php" id="add-new" class="new-btn btn btn-primary">Add New Student</a>	
 
 					<div class="logout-reset" id="logout-reset">
 						<a class="btn" id="modify">Modify Content</a>
@@ -66,7 +65,7 @@
 						<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
 					</div>
 					
-					<button style="display:none;" class=" btn btn-primary modify-done" id="done">Done</button>			
+			
 				<?php } else { ?>
 					<a class="btn" href="login.php" id="login">Login</a>
 				<?php } ?>
