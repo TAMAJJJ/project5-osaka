@@ -24,7 +24,7 @@ include "inc/html-top.php"; ?>
 
 
 			<div class="grid_item_link">
-				<a class="button" href="<?php echo $row['website']; ?>" target="_blanks"><?php echo $row['firstname']; ?>'s Website</a>
+				<a class="button" href="https://<?php echo $row['website']; ?>" target="_blanks"><?php echo $row['firstname']; ?>'s Website</a>
 			</div>
 
 

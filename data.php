@@ -6,7 +6,6 @@ href='css/data.css'>";
 include "inc/html-top.php"; ?>
 
 <section class="hero is-fullheight">
-
 	<div class = "container">
 
 		<div class = "row row-centered">
@@ -54,7 +53,10 @@ include "inc/html-top.php"; ?>
 
 								<div class="form-group fullwidth">
 									<label class="label" for="website">Website: *</label>
-										<input class="form-control" type="text" name="website" id="website" value="<?php echo $website; ?>" required>
+									<div class="row">
+										<div class="col-2">https://</div>
+										<input class="form-control col-10" type="text" name="website" id="website" value="<?php echo $website; ?>" required>
+									</div>
 								</div>
 
 								<div class="form-group fullwidth">
