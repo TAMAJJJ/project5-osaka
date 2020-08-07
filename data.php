@@ -18,35 +18,35 @@ include "inc/html-top.php"; ?>
 			<div class="field">
 				<label class="label" for="firstname">First Name: *</label>
 				<div class="control">
-					<input class="input" type="text" name="firstname" id="firstname" value="<?php echo $firstname; ?>" required>
+					<input class="form-control" type="text" name="firstname" id="firstname" value="<?php echo $firstname; ?>"  placeholder="first name" required>
 				</div>
 			</div>
 			<div class="field">
 				<label class="label" for="lastname">Last Name: *</label>
 				<div class="control">
-					<input class="input" type="text" name="lastname" id="lastname" value="<?php echo $lastname; ?>" required>
+					<input class="form-control" type="text" name="lastname" id="lastname" value="<?php echo $lastname; ?>"  placeholder="last name" required>
 				</div>
 			</div>
 			<div class="field">
 				<label class="label" for="major">Major: *</label>
-				<div class="control"><input class="input" type="text" name="major" id="major" value="<?php echo $major; ?>" required></div>
+				<div class="control"><input class="form-control" type="text" name="major" id="major" value="<?php echo $major; ?>"  placeholder="major" required></div>
 			</div>
 			<div class="field">
 				<label class="label" for="minor">Minor: </label>
 				<div class="control">
-					<input class="input" type="text" name="minor" id="minor" value="<?php echo $minor; ?>">
+					<input class="form-control" type="text" name="minor" id="minor"  placeholder="minor. Optional field" value="<?php echo $minor; ?>">
 				</div>
 			</div>
 			<div class="field intro">
 				<label class="label" for="intro">Introduction: *</label>
 				<div class="control">
-					<textarea class="textarea is-small" rows="5" name="intro" id="intro" required><?php echo $about; ?></textarea>
+					<textarea class="form-control" rows="5" name="intro" id="intro" placeholder="A short description about this student.&#10Major? Interest? Any previous programming experience? Why take CSC174?" required><?php echo $about; ?></textarea>
 				</div>
 			</div>
 			<div class="field fullwidth">
 				<label class="label" for="website">Website: *</label>
 				<div class="control">
-					<input class="input" type="text" name="website" id="website" value="<?php echo $website; ?>" required>
+					<input class="form-control" type="text" name="website" id="website" value="<?php echo $website; ?>" placeholder="Please include https://" required>
 				</div>
 			</div>
 			<div class="field fullwidth">
@@ -63,11 +63,11 @@ include "inc/html-top.php"; ?>
 			<!-- TODO: Need to remove the inline style -->
 			<div class="level fullwidth">
 				<div class="level-left">
-					<a class="button" href="studentlist.php">Cancel</a>
+					<input class="button create" type="submit" name="submit">
 				</div>
 				<div class="field level-right">
 					<div class="control">
-						<input class="button create" type="submit" name="submit">
+						<a class="button" href="studentlist.php">Cancel</a>
 					</div>
 				</div>
 			</div>
