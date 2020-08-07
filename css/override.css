@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap');
 
 .new-btn{
 	font-size: 20px;
@@ -60,7 +60,7 @@
     border: solid 10px;
     border-color: rgb(0, 181, 229);
 	color:white;
-	font-family: 'Zilla Slab', serif;
+	/* font-family: 'Zilla Slab', serif; */
 	line-height: 1.5;
 	font-size: 19px;
 }
@@ -70,6 +70,19 @@
 	color: #a94442;
 	border-color: #a94442;
 }
+
+h1, h2, label, input
+{
+	font-family: "Zilla Slab", serif;
+
+}
+
+p
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
 
