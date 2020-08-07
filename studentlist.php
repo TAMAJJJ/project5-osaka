@@ -1,7 +1,5 @@
 <?php $customCSS = "<link rel='stylesheet' href='css/studentlist.css'>";
-include "inc/html-top.php"; 
-$_SESSION['page'] = "list";
-?>
+include "inc/html-top.php"; ?>
 		<?php
 		// connect to the database
 		include('./inc/connect-db.php');
