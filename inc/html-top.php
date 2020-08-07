@@ -62,6 +62,7 @@
 					<div class="logout-reset" id="logout-reset">
 						<?php
 						if(basename($_SERVER['PHP_SELF']) == "index.php") { ?>
+							<a class="btn" id="modify" >Student List</a>
 							<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
 							<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
 						<?php } else { ?>
