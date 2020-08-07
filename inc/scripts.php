@@ -22,16 +22,22 @@
 			}
 		});
 		$("#modify").click( function(){
-			
-			if(doneButton.style.display == "none"){
-				doneButton.style.display = "block";
+			var url = window.location.pathname;
+			var filename= url.substring(url.lastIndexOf('/')+1);
+			if (filename != "studentlist.php"){
+				window.location.replace("studentlist.php");
+			}
 
-				addButton.style.display = "block";
-				for(i = 0; i < deleteButton.length; i++){
-					deleteButton[i].style.display = "block";
-					editButton[i].style.display = "block";
+			else{		
+				if(doneButton.style.display == "none"){
+					doneButton.style.display = "block";
+
+					addButton.style.display = "block";
+					for(i = 0; i < deleteButton.length; i++){
+						deleteButton[i].style.display = "block";
+						editButton[i].style.display = "block";
+					}	
 				}
-				
 			}
 		});
 	});
