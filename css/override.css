@@ -13,9 +13,19 @@
 	z-index: 3;
 }
 
+
+.login-cancel{
+	margin-top: 15px;
+	text-align: center;
+}
+.login-cancel a{
+	color: white;
+}
+
 .logout-reset{
 	width: 490px;
 }
+
 
 .modify-done{
 	width: 100%;
