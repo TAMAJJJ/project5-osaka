@@ -24,14 +24,14 @@
 				document.getElementById("image-label").style = "display:none";
 				$(".photo-change").click(function(){
 					if($(this).prop("checked") === true){
-						$("form div div input[type='hidden']").prop("type", "file");
+						$("form input[type='hidden']").prop("type", "file");
 						document.getElementById("image").required = true
 						document.getElementById("image-label").hidden = false;
 						document.getElementById("image-label").style = "display:unset";
 					}
 					else if($(this).prop("checked") === false){
 						document.getElementById("image").required = false;
-						$("form div div input[type='file']").prop("type", "hidden");
+						$("form input[type='file']").prop("type", "hidden");
 						 document.getElementById("image-label").hidden = true;
 						 document.getElementById("image-label").style = "display:none";
 					}
