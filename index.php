@@ -1,5 +1,7 @@
 <?php $customCSS = "<link rel='stylesheet' href='css/main.css'> ";
-include "inc/html-top.php"; ?>
+include "inc/html-top.php"; 
+$_SESSION['page'] = "index";
+?>
 
 		<header>
 			<h2 class="hero-text">CSC 174 Students</h2>

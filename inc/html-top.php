@@ -61,9 +61,15 @@
 					<a style="display:none;" href="new.php" id="add-new" class="new-btn btn btn-primary">Add New Student</a>	
 
 					<div class="logout-reset" id="logout-reset">
-						<a class="btn" id="modify">Modify Content</a>
-						<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
-						<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
+						<?php
+						if(basename($_SERVER['PHP_SELF']) == "index.php") { ?>
+							<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
+							<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
+						<?php } else { ?>
+							<a class="btn" id="modify">Modify Content</a>
+							<a class="btn" href="reset-password.php" id="reset">Reset Password</a>
+							<a class="btn" href="logout.php" id="logout" title="Expecteed to be more distinguishable than reset Password">Logout</a>
+						<?php } ?>
 					</div>
 					
 					<button style="display:none;" class=" btn btn-primary modify-done" id="done">Done</button>			
