@@ -26,13 +26,21 @@ include "inc/html-top.php"; ?>
 			</footer>
 			</div> <!-- container -->
 		</div> <!-- background -->
+
 	<?php include "inc/scripts.php" ?>
 
-	<script>
+<!-- 	<script>
+
 		//only for index.php
-		document.getElementById("add-new").style.display= "none";
-		document.getElementById("done").style.display= "none";
-	</script>
+		var url = window.location.pathname;
+		var filename = url.substring(url.lastIndexOf('/')+1);
+		var modifyButton = document.getElementById("modify");
+		
+		if (filename != "studentlist.php"){
+
+			modifyButton.style.display= "none";
+		}
+	</script> -->
 
 	</body>
 </html>
