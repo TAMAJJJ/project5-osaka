@@ -7,6 +7,7 @@ include('./inc/connect-db.php');
 //Handle imagetures/files and return the image location
 include('./inc/uploadfile.php');
 
+
 // check if the form (from renderform.php) has been submitted. If it has, process the form and save it to the database
 if (isset($_POST['submit'])) {
 	// confirm that the 'id' value is a valid integer before getting the form data
@@ -19,16 +20,16 @@ if (isset($_POST['submit'])) {
 		$minor = mysqli_real_escape_string($connection, htmlspecialchars($_POST['minor']));
 		$about = mysqli_real_escape_string($connection, htmlspecialchars($_POST['intro']));
 		$website = mysqli_real_escape_string($connection, htmlspecialchars($_POST['website']));
-
+		$image="1";
 
 		// TODO: ADD CHECK IF IMAGE IS BEING UPDATED
 		if (isset($_POST['photo-change']) && $_POST['photo-change']== '1') {
 			$image = handleFile();
 		} else {
-			if (isset($_GET['id']) && is_numeric($_GET['id']) && $_GET['id'] > 0) {
+			if (isset($_POST['id']) && is_numeric($_POST['id']) && $_POST['id'] > 0) {
 				// query db
 
-				$id = $_GET['id'];
+				$id = $_POST['id'];
 				$image_data = mysqli_query($connection, "SELECT image FROM osaka_directory WHERE id=$id");
 				$image = mysqli_fetch_array($image_data)['image'];
 			}
@@ -45,6 +46,7 @@ if (isset($_POST['submit'])) {
 			renderForm($id, $firstname, $lastname, $major, $minor, $about, $website, $image, $error, $formTitle);
 
 		} else {
+
 			// save the data to the database
 			$result = mysqli_query($connection, "UPDATE osaka_directory SET firstname='$firstname', lastname='$lastname', major='$major', minor='$minor', about='$about', website='$website', image='$image' WHERE id='$id'");
 
