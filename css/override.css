@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Zilla+Slab&display=swap');
 
 .new-btn{
 	font-size: 20px;
@@ -55,7 +55,7 @@
 .login
 {
 	background-color: black;
-    padding: 50px;
+    padding: 40px;
     margin-top: 100px;
     border: solid 10px;
     border-color: rgb(0, 181, 229);
@@ -71,7 +71,7 @@
 	border-color: #a94442;
 }
 
-h1, h2, label, input, a
+h1, h2, input, a
 {
 	font-family: "Zilla Slab", serif;
 
@@ -79,9 +79,13 @@ h1, h2, label, input, a
 
 p
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
+.form-login{
+	margin-top: 35px;
+	font-size: 1.38em;
+}
 
 
 

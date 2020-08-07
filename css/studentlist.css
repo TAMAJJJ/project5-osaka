@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Zilla+Slab&display=swap');
 
 /* SMACSS layout - https://smacss.com/book */
 /*******************************************************
@@ -115,7 +115,7 @@ Modules
 .revise{
   margin-top: 60%;
   font-size: 21px;
-  font-weight: 600;
+
 
   background-color: #12508c;
 }
@@ -123,7 +123,7 @@ Modules
 .delete{
   margin-top: 22%;
   font-size: 21px;
-  font-weight: 600;
+
 
   background-color:#690808;
 }

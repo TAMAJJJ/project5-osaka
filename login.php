@@ -130,7 +130,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <span class="help-block"><?php echo $password_err; ?></span>
                                 </div>
                                 <div>
-                                    <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
+                                    <input type="submit" class="btn btn-primary btn-block btn-lg form-login" value="Login">
+                                    <a class = "btn btn-danger btn-block btn-lg" href="studentlist.php">Cancel</a>
                                 </div>
                             </form>
 
