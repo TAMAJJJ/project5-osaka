@@ -22,10 +22,11 @@ body {
 /*******************************************************
 Layout
 *******************************************************/
-.data-entry{
+.data-entry
+{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px
+  gap: 10px
 }
 
 .intro{

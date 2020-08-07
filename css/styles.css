@@ -35,7 +35,7 @@ aside {
 
 h1 {
   /* font-family: "Montserrat", Arial, sans-serif; */
-  font-size: 100%;
+  /* font-size: 100%; */
   letter-spacing: 0.5px;
   /* text-shadow: 5px -5px 5px #000000; */
   vertical-align: middle;
@@ -119,6 +119,8 @@ Layout
   transition-duration: 0.4s;
   z-index: 3;
   font-family: 'Zilla Slab', serif;
+  top:0;
+  right:0;
 }
 
 .logo {
