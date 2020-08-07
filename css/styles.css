@@ -35,10 +35,10 @@ aside {
 
 h1 {
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 100%;
+  /* font-size: 100%;
   letter-spacing: 0.5px;
   text-shadow: 5px -5px 5px #000000;
-  vertical-align: middle;
+  vertical-align: middle; */
 }
 
 h2 {
@@ -118,6 +118,8 @@ Layout
   position: fixed;
   transition-duration: 0.4s;
   z-index: 3;
+  top: 0;
+  right: 0;
 }
 
 .logo {
@@ -153,16 +155,15 @@ Layout
   background-size: cover;
 }
 
-.container {
+/* .container {
   display: grid;
-  /* Article and aside in approximately-ish golden ratio- adjusted
-	for buttons taking up more space */
+
   grid-template-columns: 21.6% 21.6% 28.8%;
   gap: 130px;
   margin: 0 auto;
   width: 85%;
   max-width: 1000px;
-}
+} */
 
 /* article */
 .background article {

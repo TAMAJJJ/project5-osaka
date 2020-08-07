@@ -50,8 +50,6 @@
 		<nav class="banner" id="navbar">
 			<a href="index.php"><h1 class="logo" id="logo">OSAKA</h1></a>
 
-
-
 			<?php if ($formTitle=="Update") { ?>
 				<a href="studentlist.php" id="add-entry">Back to Student List</a>
 			<?php } elseif ($formTitle =="Create") { ?>

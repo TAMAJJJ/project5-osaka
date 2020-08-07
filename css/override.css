@@ -66,11 +66,31 @@
 	font-size: 19px;
 }
 
+.modify
+{
+    background-color: black;
+    margin-top: 100px;
+    border: solid 10px;
+    border-color: rgb(0, 181, 229);
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    line-height: 1.5;
+	font-size: 19px;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+
 .help-block, .has-error, .has-error .form-control
 {
 	color: #a94442;
 	border-color: #a94442;
 }
+
+.login-wrapper{ width: 350px; padding: 20px; }
+
+.form-wrapper{ width: 700px; padding: 20px; }
 
 
 
