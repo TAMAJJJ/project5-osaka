@@ -46,7 +46,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty(trim($_POST["password"]))){
         $password_err = "Please enter a password.";
     } elseif(strlen(trim($_POST["password"])) < 6){
-        $password_err = "Password must have atleast 6 characters.";
+        $password_err = "Password must have at least 6 characters.";
     } else{
         $password = trim($_POST["password"]);
     }
@@ -131,6 +131,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                 <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                                     <label>Password</label>
                                     <input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
+                                    <!-- <small id="passwordHelpBlock" class="form-text text-muted">
+                                        Your password must be at least 6 characters long.
+                                    </small> -->
                                     <span class="help-block"><?php echo $password_err; ?></span>
                                 </div>
                                 <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
