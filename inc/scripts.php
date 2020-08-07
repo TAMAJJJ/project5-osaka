@@ -22,6 +22,7 @@
 			}
 		});
 		$("#modify").click( function(){
+			
 			if(doneButton.style.display == "none"){
 				doneButton.style.display = "block";
 

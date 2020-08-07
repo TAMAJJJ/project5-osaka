@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                 <div class = "login">
 
-                    <div class="login-wrapper">
+                    <div class="wrapper">
 
                         <h1 class = "text-center">Login</h2>
 
@@ -132,9 +132,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                 <div>
                                     <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
                                 </div>
-                                <div class="login-cancel">
-                                	<a class = "btn btn-danger btn-block btn-lg" href="studentlist.php">Cancel</a>
-                            	</div>
                             </form>
 
                     </div>

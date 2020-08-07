@@ -1,18 +1,11 @@
 <?php $customCSS = "<link rel='stylesheet' href='css/studentlist.css'>";
 include "inc/html-top.php"; ?>
-
-	<?php if(isset($_SESSION['username'])) { ?>
-		<!-- only in studentlist.php, don't move to html-top -->
-		<a style="display:none;" href="new.php" id="add-new" class="new-btn btn btn-primary">Add New Student</a>
-		<button style="display:none;" class=" btn btn-primary modify-done" id="done">Done</button>
-	<?php } ?>
-
-	<?php
-	// connect to the database
-	include('./inc/connect-db.php');
-	// get results from database
-	$result = mysqli_query($connection, "SELECT * FROM osaka_directory");
-	?>
+		<?php
+		// connect to the database
+		include('./inc/connect-db.php');
+		// get results from database
+		$result = mysqli_query($connection, "SELECT * FROM osaka_directory");
+		?>
 	<header>
 		<h1 class="h1-large">Student Roster</h1>
 	</header>
@@ -31,7 +24,7 @@ include "inc/html-top.php"; ?>
 
 
 			<div class="grid_item_link">
-				<a class="button" href="<?php echo $row['website']; ?>" target="_blank"><?php echo $row['firstname']; ?>'s Website</a>
+				<a class="button" href="<?php echo $row['website']; ?>"><?php echo $row['firstname']; ?>'s Website</a>
 			</div>
 
 

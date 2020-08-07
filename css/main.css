@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&family=Roboto&family=Zilla+Slab&family=Montserrat&display=swap");
-
 /* HOME PAGE */
 
 /* SMACSS layout - https://smacss.com/book */
@@ -8,20 +6,17 @@ Base
 *******************************************************/
 h1, .hero-text {
     text-shadow: 5px 5px 5px #000000;
-    /* font-family: 'Futura-CondensedExtraBold', Arial, sans-serif; */
-    font-family: "Zilla Slab", serif;
-    /* font-size: 250%; */
-    font-size: 50px;
+    font-family: 'Futura-CondensedExtraBold', Arial, sans-serif;
+    font-size: 250%;
     line-height: normal;
     letter-spacing: normal;
-    font-weight: bolder;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 15px;
     color: #e3e3e3;
-    /* font-family: "Futura", Arial, sans-serif; */
-    font-family: "Zilla Slab", serif;
+    font-family: Futura, Arial, sans-serif;
+
 }
 
 footer {
@@ -37,15 +32,15 @@ Layout
 .background {
     margin-top: 36%; /* change how much of background image is visible */
     padding-bottom: 25px;
-    font-family: "Futura", Arial, sans-serif;
+    font-family: Futura, Arial, sans-serif;
     color: silver;
 
 }
 
-/* .container {
+.container {
     gap: 7%;
     grid-template-columns: 1fr 1fr 1fr;
-} */
+}
 
 
 .column_1 {
@@ -67,8 +62,7 @@ Modules
 }
 
 .container p {
-    line-height: 24px;
-    font-size: 18px;
+    line-height: 21px;
 }
 
 .column_3 a {
@@ -94,8 +88,7 @@ Modules
     display: block;
     font-size: 30px;
     border-radius: 15px;
-    /* font-family: "Futura", Arial, sans-serif; */
-    font-family: "Zilla Slab", serif;
+	font-family: Futura, Arial, sans-serif;
   	margin: 0px 2px;
   	transition-duration: 0.4s;
   	cursor: pointer;

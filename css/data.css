@@ -17,14 +17,13 @@ body {
 }
 
 
-
 /*******************************************************
 Layout
 *******************************************************/
 .data-entry{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px
+  gap: 20px
 }
 
 .intro{
@@ -32,15 +31,11 @@ Layout
 }
 
 .required{
-  text-align: center;
-  margin-top: -15px;
-  margin-bottom: 15px;
+  text-align: right;
 }
 
 .hero {
   justify-content: normal;
-
-  margin-top: 100px;
 }
 
 .fullwidth {
@@ -52,7 +47,7 @@ Layout
 Modules
 *******************************************************/
 .title{
-  margin-top: 10px;
+  margin-top: 80px;
   color: white;
 }
 
