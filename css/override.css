@@ -71,10 +71,9 @@
 	border-color: #a94442;
 }
 
-h1, h2, input, a
+h1, h2, input, a, label
 {
 	font-family: "Zilla Slab", serif;
-
 }
 
 p
@@ -82,7 +81,8 @@ p
 	font-family: 'Open Sans', sans-serif;
 }
 
-.form-login{
+.form-login
+{
 	margin-top: 35px;
 	font-size: 1.38em;
 }
