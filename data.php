@@ -61,13 +61,13 @@ include "inc/html-top.php"; ?>
 									<?php 
 										if($formTitle == "Update") 
 										{ ?>
-											<input type="checkbox" name="photo-change" class="form-control photo-change" value="1" id="photo-change"><label class="has-text-white" for="photo-change">I want to replace the current photo.</label>
+											<input type="checkbox" name="photo-change" class="form-control photo-change data-check" value="1" id="photo-change"><label class="has-text-white" for="photo-change">I want to replace the current photo.</label>
 									<?php 
 										} ?>
-
-										<label class="label" for="image" id="image-label">Upload an image*</label>
-
-										<input type="file" name="image" id="image" class="form-control-file" required>
+										<div>
+											<label class="label" for="image" id="image-label">Upload an image*</label>
+											<input type="file" name="image" id="image" class="form-control-file" required>
+										</div>
 								</div>
 
 								<!-- TODO: Need to remove the inline style -->

@@ -88,6 +88,13 @@ p
 	font-size: 1.30em;
 }
 
+.data-check{
+	display: inline-block;
+	width: unset;
+	height: unset;
+
+	margin-right: 5px;
+}
 
 
 

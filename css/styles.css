@@ -178,7 +178,7 @@ Layout
   font-family: "Zilla Slab", serif;
 }
 
-#add-entry,
+
 #reset,
 #login,
 #logout,
@@ -187,6 +187,13 @@ Layout
   font-size: 22px;
   position: relative;
   top: 5px;
+}
+#add-entry{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 15px;
+  right: 10px;
 }
 #login,
 #logout {
