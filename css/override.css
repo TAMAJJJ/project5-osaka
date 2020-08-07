@@ -81,10 +81,11 @@ p
 	font-family: 'Open Sans', sans-serif;
 }
 
-.form-login
+.btn
 {
-	margin-top: 35px;
-	font-size: 1.38em;
+	/* margin-top: 35px; */
+	/* font-size: 1.38em; */
+	font-size: 1.30em;
 }
 
 
