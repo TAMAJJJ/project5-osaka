@@ -19,7 +19,7 @@
 		<script>
 			$(document).ready(function(){
 				document.getElementById("image").required = false;
-				$("form div div input[type='file']").prop("type", "hidden");
+				$("form input[type='file']").prop("type", "hidden");
 				document.getElementById("image-label").hidden = true;
 				document.getElementById("image-label").style = "display:none";
 				$(".photo-change").click(function(){

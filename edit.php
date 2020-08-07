@@ -40,7 +40,7 @@ if (isset($_POST['submit'])) {
 			$error = 'ERROR: Please fill in all required fields!';
 
 			//error, display form
-			renderForm($id, $firstname, $lastname, $major, $minor, $about, $website,$error, $formTitle);
+			renderForm($id, $firstname, $lastname, $major, $minor, $about, $website, $error, $formTitle);
 
 		} else {
 			// save the data to the database
