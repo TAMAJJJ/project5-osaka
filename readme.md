@@ -10,6 +10,7 @@
 
 - Made the background image, fonts, and CSS framework consistant across all pages
 - Styled new login and register pages according to the design of the original pages
+- Fixed heading bug on edit page
 
 ### Technician
 
