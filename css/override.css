@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Zilla+Slab&display=swap');
 
-.new-btn
+/*******************************************************
+Base
+*******************************************************/
+
+h1, h2, input, a, label
 {
-	font-size: 20px;
-	font-weight: 500;
-	position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: 50px;
-	color: white;
+	font-family: "Zilla Slab", serif;
 }
+
+p
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*******************************************************
+Layout
+*******************************************************/
 
 .logout-reset
 {
@@ -25,15 +32,6 @@
     font-size: 25px;
 }
 
-.modify-done a
-{
-	display: block;
-	font-size: 30px;
-	font-weight: 500;
-	margin-top: -4px;
-}
-
-
 .col-centered 
 {
     display:inline-block;
@@ -45,6 +43,42 @@
 .row-centered 
 {
     text-align:center;
+}
+
+.data-check
+{
+	display: inline-block;
+	width: unset;
+	height: unset;
+	margin-right: 5px;
+}
+
+/*******************************************************
+Modules
+*******************************************************/
+
+.new-btn
+{
+	font-size: 20px;
+	font-weight: 500;
+	position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 50px;
+	color: white;
+}
+
+.modify-done a
+{
+	display: block;
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: -4px;
+}
+
+.btn
+{
+	font-size: 1.30em;
 }
 
 .form-background
@@ -69,27 +103,4 @@
 {
 	color: #a94442;
 	border-color: #a94442;
-}
-
-h1, h2, input, a, label
-{
-	font-family: "Zilla Slab", serif;
-}
-
-p
-{
-	font-family: 'Open Sans', sans-serif;
-}
-
-.btn
-{
-	font-size: 1.30em;
-}
-
-.data-check
-{
-	display: inline-block;
-	width: unset;
-	height: unset;
-	margin-right: 5px;
 }
