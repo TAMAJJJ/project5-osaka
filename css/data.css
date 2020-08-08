@@ -29,19 +29,23 @@ Layout
   gap: 10px
 }
 
-.intro{
+.intro
+{
   grid-column: 1/3;
 }
 
-.required{
+.required
+{
   text-align: right;
 }
 
-.hero {
+.hero 
+{
   justify-content: normal;
 }
 
-.fullwidth {
+.fullwidth 
+{
   grid-column: 1/3;
 }
 
@@ -49,31 +53,37 @@ Layout
 /*******************************************************
 Modules
 *******************************************************/
-.title{
+.title
+{
   margin-top: 80px;
   color: white;
 }
 
-.box{
+.box
+{
   background-color: #020b0e;
   border: 1px solid gray;
   padding-top: 10px;
 }
 
-.label, .file-label{
+.label, .file-label
+{
   color: white;
 }
 
-.file-cta .file-label{
+.file-cta .file-label
+{
   color: black;
 }
 
-.create{
+.create
+{
   background-color: rgba(0, 181, 229, 1);
   color: white;
 }
 
-.file-icon{
+.file-icon
+{
   background-image: url(../images/upload.png);
   background-repeat: no-repeat;
 }

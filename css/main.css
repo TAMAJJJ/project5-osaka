@@ -35,37 +35,18 @@ footer
 /*******************************************************
 Layout
 *******************************************************/
-.background {
+.background 
+{
     margin-top: 36%; /* change how much of background image is visible */
     padding-bottom: 25px;
     /* font-family: Futura, Arial, sans-serif; */
     color: silver;
     font-family: 'Zilla Slab', serif;
 }
-/* 
-.container {
-    gap: 7%;
-    grid-template-columns: 1fr 1fr 1fr;
-} */
-
-
-/* .column_1 {
-    grid-column: 1 / 2;
-
-}
-
-.column_2 {
-    font-size: 13px;
-} */
 
 /*******************************************************
 Modules
 *******************************************************/
-/* larger font */
-.h1_index {
-    font-size: 300%;
-
-}
 
 .container p 
 {
@@ -78,16 +59,18 @@ Modules
     font-size: 30px;
 }
 
-@media (max-width: 900px) {
-    .column_3 a {
+@media (max-width: 900px) 
+{
+    .column_3 a 
+    {
         /* instructions from w3schools.com */
         font-size: 3vw;
-
     }
 }
 
 /* meet the students */
-.button {
+.button 
+{
 	text-decoration: none;
     text-align: center;
     padding: 18%;
@@ -105,11 +88,13 @@ Modules
 
 }
 
-.button:hover {
+.button:hover 
+{
 	background-color: #b8ff99;
 }
 
-.youtube {
+.youtube 
+{
     border: 2px solid black;
     border-radius: 15px;
     margin-top: 5px;
