@@ -8,20 +8,17 @@ Base
 *******************************************************/
 h1, .hero-text 
 {
-    /* text-shadow: 5px 5px 5px #000000; */
-    /* font-family: 'Futura-CondensedExtraBold', Arial, sans-serif; */
-    /* font-size: 250%; */
     font-size: 50px;
     line-height: normal;
     letter-spacing: normal;
     font-family: 'Zilla Slab', serif;
 }
 
-h2 {
+h2 
+{
     font-size: 24px;
     color: #e3e3e3;
     /* font-family: Futura, Arial, sans-serif; */
-
 }
 
 footer 
@@ -52,11 +49,6 @@ Modules
 {
     line-height: 24px;
     font-size: 16px;
-}
-
-.column_3 a 
-{
-    font-size: 30px;
 }
 
 @media (max-width: 900px) 
